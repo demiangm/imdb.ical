@@ -2,11 +2,8 @@
 import requests
 from bs4 import BeautifulSoup
 from ics import Calendar, Event
-from datetime import datetime
 from urllib.parse import urljoin
-import locale
-
-locale.setlocale(locale.LC_TIME, 'pt_BR.UTF-8')
+from dateparser import parse as parse_date
 
 URL = "https://www.imdb.com/pt/calendar/?ref_=nv_mv_cal"
 BASE = "https://www.imdb.com"
@@ -18,9 +15,8 @@ def get_imdb_calendar():
 
     for date_header in soup.find_all('h4'):
         date_text = date_header.text.strip()
-        try:
-            release_date = datetime.strptime(date_text, "%d de %B de %Y")
-        except ValueError:
+        release_date = parse_date(date_text, languages=["pt"])
+        if not release_date:
             continue
 
         ul = date_header.find_next_sibling('ul')
