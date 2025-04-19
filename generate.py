@@ -5,7 +5,7 @@ from ics import Calendar, Event
 from urllib.parse import urljoin
 from dateparser import parse as parse_date
 
-URL = "https://www.imdb.com/pt/calendar/?ref_=nv_mv_cal"
+URL = "https://www.imdb.com/pt/calendar/"
 BASE = "https://www.imdb.com"
 
 def get_imdb_calendar():
