@@ -1,58 +1,57 @@
 # generate.py
 import requests
+import json
 from bs4 import BeautifulSoup
 from ics import Calendar, Event
-from urllib.parse import urljoin
 from dateparser import parse as parse_date
+from datetime import datetime
 
 URL = "https://www.imdb.com/pt/calendar/"
-BASE = "https://www.imdb.com"
 
 def get_imdb_calendar():
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+        "User-Agent": "Mozilla/5.0"
     }
     response = requests.get(URL, headers=headers)
-    print(f"Status HTTP: {response.status_code}")
-
-    # Salva o HTML retornado para debug
-    with open("dump.html", "w", encoding="utf-8") as f:
-        f.write(response.text)
+    print("Status HTTP:", response.status_code)
 
     soup = BeautifulSoup(response.text, 'html.parser')
-    calendar = Calendar()
-    eventos = 0
+    script_tag = soup.find("script", {"id": "__NEXT_DATA__"})
 
-    for date_header in soup.find_all('h4'):
-        date_text = date_header.get_text(strip=True)
-        release_date = parse_date(date_text, languages=["pt"])
-        print(f"Encontrou data: {date_text} → {release_date}")
+    if not script_tag:
+        print("Script com os dados não encontrado.")
+        return None
+
+    data = json.loads(script_tag.string)
+    groups = data.get("props", {}).get("pageProps", {}).get("groups", [])
+
+    calendar = Calendar()
+    total_eventos = 0
+
+    for group in groups:
+        date_str = group.get("group")
+        release_date = parse_date(date_str, languages=["pt"])
         if not release_date:
             continue
 
-        ul = date_header.find_next_sibling('ul')
-        if ul:
-            for li in ul.find_all('li'):
-                a = li.find('a', href=True)
-                if a and '/title/' in a['href']:
-                    event = Event()
-                    event.name = a.get_text(strip=True)
-                    event.begin = release_date
-                    event.url = urljoin(BASE, a['href'])
-                    calendar.events.add(event)
-                    eventos += 1
-                    print(f"  ↳ Evento: {event.name}")
+        entries = group.get("entries", [])
+        for entry in entries:
+            title = entry.get("titleText")
+            release = entry.get("releaseDate")
 
-    print(f"Total de eventos adicionados: {eventos}")
+            if title and release:
+                event = Event()
+                event.name = title
+                event.begin = datetime.strptime(release, "%a, %d %b %Y %H:%M:%S %Z")
+                event.url = f"https://www.imdb.com/title/{entry.get('id')}/"
+                calendar.events.add(event)
+                total_eventos += 1
+
+    print(f"Total de eventos adicionados: {total_eventos}")
     return calendar
 
 if __name__ == "__main__":
-    cal = get_imdb_calendar()
-    print(f"Total de eventos: {len(cal.events)}")
-    with open("calendar.ics", "w", encoding="utf-8") as f:
-        f.writelines(cal)
-    
-    # Adiciona o dump.html ao git para debug
-    import subprocess
-    subprocess.run(["git", "add", "dump.html"])
-
+    calendar = get_imdb_calendar()
+    if calendar:
+        with open("calendar.ics", "w", encoding="utf-8") as f:
+            f.writelines(calendar)
