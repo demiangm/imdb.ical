@@ -3,6 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
 from ics import Calendar, Event
+from ics.grammar.parse import ContentLine
 
 URL = "https://www.imdb.com/calendar/?region=BR&type=MOVIE"
 HEADERS = {
@@ -18,7 +19,7 @@ def extract_data_from_next_script(html):
 
 def parse_events(data):
     calendar = Calendar()
-    calendar.extra.append('NAME:Lançamentos filmes - Imdb')
+    calendar.extra.append(ContentLine(name="X-WR-CALNAME", value="Lançamentos filmes - Imdb"))
     total_eventos = 0
 
     try:
