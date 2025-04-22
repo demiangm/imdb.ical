@@ -51,3 +51,8 @@ if __name__ == "__main__":
     print(f"Total de eventos: {len(cal.events)}")
     with open("calendar.ics", "w", encoding="utf-8") as f:
         f.writelines(cal)
+    
+    # Adiciona o dump.html ao git para debug
+    import subprocess
+    subprocess.run(["git", "add", "dump.html"])
+
