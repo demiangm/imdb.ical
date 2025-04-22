@@ -1,57 +1,68 @@
-# generate.py
-import requests
 import json
+import requests
 from bs4 import BeautifulSoup
-from ics import Calendar, Event
-from dateparser import parse as parse_date
 from datetime import datetime
+from ics import Calendar, Event
 
-URL = "https://www.imdb.com/pt/calendar/"
+URL = "https://www.imdb.com/calendar/?region=BR&type=MOVIE"
+HEADERS = {
+    "User-Agent": "Mozilla/5.0",
+}
 
-def get_imdb_calendar():
-    headers = {
-        "User-Agent": "Mozilla/5.0"
-    }
-    response = requests.get(URL, headers=headers)
-    print("Status HTTP:", response.status_code)
+def extract_data_from_next_script(html):
+    soup = BeautifulSoup(html, "html.parser")
+    script_tag = soup.find("script", id="__NEXT_DATA__")
+    if script_tag:
+        return json.loads(script_tag.string)
+    return None
 
-    soup = BeautifulSoup(response.text, 'html.parser')
-    script_tag = soup.find("script", {"id": "__NEXT_DATA__"})
-
-    if not script_tag:
-        print("Script com os dados não encontrado.")
-        return None
-
-    data = json.loads(script_tag.string)
-    groups = data.get("props", {}).get("pageProps", {}).get("groups", [])
-
+def parse_events(data):
     calendar = Calendar()
     total_eventos = 0
 
-    for group in groups:
-        date_str = group.get("group")
-        release_date = parse_date(date_str, languages=["pt"])
-        if not release_date:
-            continue
+    try:
+        groups = data["props"]["pageProps"]["groups"]
+        for group in groups:
+            entries = group.get("entries", [])
+            for entry in entries:
+                title = entry.get("titleText")
+                release = entry.get("releaseDate")
+                if title and release:
+                    event = Event()
+                    event.name = title
 
-        entries = group.get("entries", [])
-        for entry in entries:
-            title = entry.get("titleText")
-            release = entry.get("releaseDate")
+                    # Parse date and make all-day
+                    release_date = datetime.strptime(release, "%a, %d %b %Y %H:%M:%S %Z").date()
+                    event.begin = release_date
+                    event.make_all_day()
 
-            if title and release:
-                event = Event()
-                event.name = title
-                event.begin = datetime.strptime(release, "%a, %d %b %Y %H:%M:%S %Z")
-                event.url = f"https://www.imdb.com/title/{entry.get('id')}/"
-                calendar.events.add(event)
-                total_eventos += 1
+                    event.url = f"https://www.imdb.com/title/{entry.get('id')}/"
+                    calendar.events.add(event)
+                    total_eventos += 1
+    except Exception as e:
+        print("Erro ao processar os dados:", e)
 
-    print(f"Total de eventos adicionados: {total_eventos}")
-    return calendar
+    return calendar, total_eventos
+
+def main():
+    response = requests.get(URL, headers=HEADERS)
+    print("Status HTTP:", response.status_code)
+
+    if response.status_code == 200:
+        html = response.text
+        with open("dump.html", "w", encoding="utf-8") as f:
+            f.write(html)
+
+        data = extract_data_from_next_script(html)
+        if data:
+            calendar, total_eventos = parse_events(data)
+            with open("calendar.ics", "w", encoding="utf-8") as f:
+                f.writelines(calendar)
+            print(f"Total de eventos adicionados: {total_eventos}")
+        else:
+            print("Não foi possível extrair os dados JSON.")
+    else:
+        print("Falha ao acessar a página.")
 
 if __name__ == "__main__":
-    calendar = get_imdb_calendar()
-    if calendar:
-        with open("calendar.ics", "w", encoding="utf-8") as f:
-            f.writelines(calendar)
+    main()
