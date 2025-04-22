@@ -18,6 +18,7 @@ def extract_data_from_next_script(html):
 
 def parse_events(data):
     calendar = Calendar()
+    calendar.extra.append('NAME:Lançamentos filmes - Imdb')
     total_eventos = 0
 
     try:
@@ -29,7 +30,7 @@ def parse_events(data):
                 release = entry.get("releaseDate")
                 if title and release:
                     event = Event()
-                    event.name = title
+                    event.name = f"🎥 {entry['titleText']}"
 
                     # Parse date and make all-day
                     release_date = datetime.strptime(release, "%a, %d %b %Y %H:%M:%S %Z").date()
