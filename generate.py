@@ -37,5 +37,7 @@ def get_imdb_calendar():
     return calendar
 
 if __name__ == "__main__":
+    cal = get_imdb_calendar()
+    print(f"Total de eventos: {len(cal.events)}")  # 👈 esta linha aqui
     with open("calendar.ics", "w", encoding="utf-8") as f:
-        f.writelines(get_imdb_calendar())
+        f.writelines(cal)
