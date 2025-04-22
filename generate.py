@@ -19,7 +19,7 @@ def extract_data_from_next_script(html):
 
 def parse_events(data):
     calendar = Calendar()
-    calendar.extra.append(ContentLine(name="X-WR-CALNAME", value="Lançamentos filmes - Imdb"))
+    calendar.extra.append(ContentLine(name="X-WR-CALNAME", value="Lançamentos filmes Brasil - Imdb"))
     total_eventos = 0
 
     try:
