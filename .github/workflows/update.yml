@@ -14,7 +14,7 @@ jobs:
 
     steps:
       - name: Clonar o repositório
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Instalar dependências
         run: pip install -r requirements.txt
