@@ -39,8 +39,9 @@ QUERY = """
 
 
 def fetch_events():
-    # Busca a partir de 6 meses atrás para incluir lançamentos recentes
-    start_date = date.today().replace(month=max(1, date.today().month - 6), day=1)
+    # Busca a partir de hoje para pegar todos os próximos lançamentos
+    # Filmes já lançados são preservados pelo mecanismo de merge
+    start_date = date.today()
     query = QUERY % start_date.strftime("%Y-%m-%d")
 
     response = requests.post(GRAPHQL_URL, json={"query": query}, headers=HEADERS)
@@ -169,8 +170,14 @@ def main():
     for event in merged.values():
         calendar.events.add(event)
 
+    # A biblioteca ics==0.7.2 insere linhas em branco entre propriedades,
+    # o que não é válido no RFC 5545. Removemos aqui.
+    output = "".join(calendar)
+    output = "\n".join(line for line in output.splitlines() if line.strip())
+    output += "\n"
+
     with open(filepath, "w", encoding="utf-8") as f:
-        f.writelines(calendar)
+        f.write(output)
 
     print(f"Total de eventos no calendário: {len(merged)}")
 
