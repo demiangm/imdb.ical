@@ -31,6 +31,16 @@ QUERY = """
           month
           year
         }
+        releaseDates(first: 100) {
+          edges {
+            node {
+              country { id }
+              day
+              month
+              year
+            }
+          }
+        }
       }
     }
   }
@@ -88,6 +98,19 @@ def load_existing_events(filepath):
     return existing
 
 
+def get_br_release_date(node):
+    """
+    Retorna a data de lançamento no Brasil.
+    Prefere releaseDates[BR], cai no releaseDate (EUA) se BR não estiver disponível.
+    """
+    for edge in node.get("releaseDates", {}).get("edges", []):
+        rd = edge["node"]
+        if rd.get("country", {}).get("id") == "BR":
+            if rd.get("year") and rd.get("month") and rd.get("day"):
+                return rd
+    return node.get("releaseDate")
+
+
 def build_event(title, title_id, release_date):
     event = Event()
     event.name = f"🎥 {title}"
@@ -114,8 +137,10 @@ def merge_events(edges, existing_events):
     for edge in edges:
         node = edge.get("node", {})
         title = node.get("titleText", {}).get("text")
-        release = node.get("releaseDate")
         title_id = node.get("id")
+
+        # Usar data BR se disponível, senão data EUA
+        release = get_br_release_date(node)
 
         if not (title and release and release.get("year") and release.get("month") and release.get("day")):
             continue
