@@ -3,28 +3,22 @@ X-WR-CALNAME:Lançamentos filmes Brasil - Imdb
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260423
-SUMMARY:🎥 Colours of Time
-UID:accd28d6-5cf2-4ac5-8926-74b3eefa900c@accd.org
-URL:https://www.imdb.com/title/tt31411349/
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260521
 SUMMARY:🎥 Passenger
 UID:2fa2ada2-717f-40e3-ae66-dec435101aaf@2fa2.org
 URL:https://www.imdb.com/title/tt33763941/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260611
-SUMMARY:🎥 Disclosure Day
-UID:d3ba5739-2a11-485f-93c3-38b7cd12163d@d3ba.org
-URL:https://www.imdb.com/title/tt15047880/
+DTSTART;VALUE=DATE:20260614
+SUMMARY:🎥 Animals United 2: The Chilldown
+UID:ba7a6902-e6d1-406e-85f2-05f34ffb9be5@ba7a.org
+URL:https://www.imdb.com/title/tt39197200/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260611
-SUMMARY:🎥 Tuner
-UID:b9765785-a271-4194-b9ed-246cd210d621@b976.org
-URL:https://www.imdb.com/title/tt33296751/
+DTSTART;VALUE=DATE:20260618
+SUMMARY:🎥 The Death of Robin Hood
+UID:f936d694-3ba3-49e8-9d58-9f08856bc6db@f936.org
+URL:https://www.imdb.com/title/tt32273171/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260528
@@ -33,16 +27,10 @@ UID:bcd2167f-87fa-41b0-95f7-d94ad9fd1b28@bcd2.org
 URL:https://www.imdb.com/title/tt2467700/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260702
-SUMMARY:🎥 Minions & Monsters
-UID:3f5187a0-729d-47ba-88da-2798c0d25b81@3f51.org
-URL:https://www.imdb.com/title/tt32890033/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260611
-SUMMARY:🎥 You\, Me & Tuscany
-UID:ce34d9e8-75a3-490d-a334-427a506d1877@ce34.org
-URL:https://www.imdb.com/title/tt36352591/
+DTSTART;VALUE=DATE:20260604
+SUMMARY:🎥 Se Eu Fosse Você 3
+UID:96e378bc-b660-41d1-9351-10bfe348d193@96e3.org
+URL:https://www.imdb.com/title/tt2216550/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260610
@@ -51,22 +39,58 @@ UID:62e1e2b1-4c36-482e-aa34-7fd5de79897c@62e1.org
 URL:https://www.imdb.com/title/tt37964027/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260611
-SUMMARY:🎥 Power Ballad
-UID:2b269aba-49cc-45b6-8b05-12545db862ef@2b26.org
-URL:https://www.imdb.com/title/tt32267691/
+DTSTART;VALUE=DATE:20260604
+SUMMARY:🎥 Scary Movie
+UID:db8f6f8e-ddb7-452c-b19e-4562c079e9a2@db8f.org
+URL:https://www.imdb.com/title/tt32093575/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260605
 SUMMARY:🎥 Masters of the Universe
-UID:8e7f0f47-85aa-4096-80a4-1cde8ea516ae@8e7f.org
+UID:6fc9664e-0f80-43a0-b756-b3cae3cd11d8@6fc9.org
 URL:https://www.imdb.com/title/tt0427340/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260618
-SUMMARY:🎥 The Death of Robin Hood
-UID:20e1c0f6-74c0-4392-bd02-af1664e194b4@20e1.org
-URL:https://www.imdb.com/title/tt32273171/
+DTSTART;VALUE=DATE:20260709
+SUMMARY:🎥 Primavera
+UID:25fa7e1f-4643-4aab-bcc0-16de70d6bf78@25fa.org
+URL:https://www.imdb.com/title/tt33586629/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260709
+SUMMARY:🎥 Moana
+UID:a52f430c-1e25-4a92-b4e8-426211cba9dc@a52f.org
+URL:https://www.imdb.com/title/tt27419466/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260611
+SUMMARY:🎥 Power Ballad
+UID:88b7603d-7348-4320-bede-dc4d148b1b2c@88b7.org
+URL:https://www.imdb.com/title/tt32267691/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260702
+SUMMARY:🎥 Minions & Monsters
+UID:e5168eac-4abf-4351-b42c-7a1857565504@e516.org
+URL:https://www.imdb.com/title/tt32890033/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260625
+SUMMARY:🎥 My Life with Shurastey
+UID:21ba568d-15d6-4649-ad81-e11b6bf4126a@21ba.org
+URL:https://www.imdb.com/title/tt32558909/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260617
+SUMMARY:🎥 Toy Story 5
+UID:49166b39-2d2f-4c73-8361-cf90a26b1858@4916.org
+URL:https://www.imdb.com/title/tt29355505/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260611
+SUMMARY:🎥 You\, Me & Tuscany
+UID:3f2aa234-d192-4a96-8af7-d43369303f41@3f2a.org
+URL:https://www.imdb.com/title/tt36352591/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260528
@@ -75,22 +99,16 @@ UID:facc77b3-bc55-41d1-9f0b-872e8365725a@facc.org
 URL:https://www.imdb.com/title/tt31189814/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260604
-SUMMARY:🎥 Scary Movie
-UID:526951ea-21d0-4a10-8e55-ed14dcee670a@5269.org
-URL:https://www.imdb.com/title/tt32093575/
+DTSTART;VALUE=DATE:20260611
+SUMMARY:🎥 Tuner
+UID:8bcca090-b447-475d-9bf1-db26c80d1f83@8bcc.org
+URL:https://www.imdb.com/title/tt33296751/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260617
-SUMMARY:🎥 Toy Story 5
-UID:aac2069a-4840-4cce-bf9a-18eea0e41e7b@aac2.org
-URL:https://www.imdb.com/title/tt29355505/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260604
-SUMMARY:🎥 Se Eu Fosse Você 3
-UID:65bb2373-90e4-4bf3-8974-8dd784926c4c@65bb.org
-URL:https://www.imdb.com/title/tt2216550/
+DTSTART;VALUE=DATE:20260611
+SUMMARY:🎥 Disclosure Day
+UID:61863c3e-2016-4f2e-b088-5ad038fc12e7@6186.org
+URL:https://www.imdb.com/title/tt15047880/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260528
@@ -105,28 +123,34 @@ UID:b0596190-4fb8-41e3-b813-c5ef7544ef7c@b059.org
 URL:https://www.imdb.com/title/tt37185884/
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260618
+SUMMARY:🎥 Quinze Dias
+UID:20b3bca4-ca4c-46f6-b9a8-d5f1b576a451@20b3.org
+URL:https://www.imdb.com/title/tt40001699/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260604
+SUMMARY:🎥 100 Nights of Hero
+UID:b06e98a0-28f3-46b4-a297-ce027646f785@b06e.org
+URL:https://www.imdb.com/title/tt33350512/
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260521
 SUMMARY:🎥 Star Wars: The Mandalorian and Grogu
 UID:c5432159-ce49-4d09-8298-b9b779d9779a@c543.org
 URL:https://www.imdb.com/title/tt30825738/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260604
-SUMMARY:🎥 100 Nights of Hero
-UID:67dc4f7e-ee9f-4901-8e65-f2971c48ce64@67dc.org
-URL:https://www.imdb.com/title/tt33350512/
+DTSTART;VALUE=DATE:20260513
+SUMMARY:🎥 The Bus: A French Football Mutiny
+UID:fb5d9f83-9b1a-4896-a196-701087a7196f@fb5d.org
+URL:https://www.imdb.com/title/tt37024319/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260521
 SUMMARY:🎥 Quem tem com que me pague\, não me deve nada
 UID:6f8e0e49-e7d7-4fda-ba74-fda7ac053fdc@6f8e.org
 URL:https://www.imdb.com/title/tt40367570/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260513
-SUMMARY:🎥 The Bus: A French Football Mutiny
-UID:fb5d9f83-9b1a-4896-a196-701087a7196f@fb5d.org
-URL:https://www.imdb.com/title/tt37024319/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260528
@@ -139,17 +163,5 @@ DTSTART;VALUE=DATE:20260528
 SUMMARY:🎥 Fleak
 UID:7094026d-f1bb-4013-b672-395b7434c1ce@7094.org
 URL:https://www.imdb.com/title/tt14813764/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260614
-SUMMARY:🎥 Animals United 2: The Chilldown
-UID:7895781b-1b96-4b00-8aec-b2b779e83b82@7895.org
-URL:https://www.imdb.com/title/tt39197200/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260618
-SUMMARY:🎥 Quinze Dias
-UID:d6d35027-ce07-4916-89a4-58755506e392@d6d3.org
-URL:https://www.imdb.com/title/tt40001699/
 END:VEVENT
 END:VCALENDAR
