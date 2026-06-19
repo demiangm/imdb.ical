@@ -10,9 +10,15 @@ URL:https://www.imdb.com/title/tt33763941/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260709
-SUMMARY:🎥 Primavera
-UID:e21418d8-03e5-4972-8ccf-1646e754e4cc@e214.org
-URL:https://www.imdb.com/title/tt33586629/
+SUMMARY:🎥 Moana
+UID:2dbf716d-4be9-47ea-b015-0c52f7206b72@2dbf.org
+URL:https://www.imdb.com/title/tt27419466/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260717
+SUMMARY:🎥 Diamond Made Man
+UID:27a94f7e-52a4-41cc-b99c-beb51d545d5a@27a9.org
+URL:https://www.imdb.com/title/tt39674832/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260528
@@ -21,16 +27,16 @@ UID:bcd2167f-87fa-41b0-95f7-d94ad9fd1b28@bcd2.org
 URL:https://www.imdb.com/title/tt2467700/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260618
-SUMMARY:🎥 Quinze Dias
-UID:0ebfb01b-0bb2-428b-b365-abe45e3c35fb@0ebf.org
-URL:https://www.imdb.com/title/tt40001699/
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260604
 SUMMARY:🎥 Se Eu Fosse Você 3
 UID:96e378bc-b660-41d1-9351-10bfe348d193@96e3.org
 URL:https://www.imdb.com/title/tt2216550/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260618
+SUMMARY:🎥 Quinze Dias
+UID:0ebfb01b-0bb2-428b-b365-abe45e3c35fb@0ebf.org
+URL:https://www.imdb.com/title/tt40001699/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260618
@@ -51,9 +57,15 @@ UID:db8f6f8e-ddb7-452c-b19e-4562c079e9a2@db8f.org
 URL:https://www.imdb.com/title/tt32093575/
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260709
+SUMMARY:🎥 Primavera
+UID:e7d939bd-63e3-466b-99c8-f5e903ec5bde@e7d9.org
+URL:https://www.imdb.com/title/tt33586629/
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260723
 SUMMARY:🎥 Deep Water
-UID:cef4e89f-0774-4ffd-bb0b-a54b8bb05b97@cef4.org
+UID:e583878d-7724-4cb2-955f-b49c7d4352b8@e583.org
 URL:https://www.imdb.com/title/tt29516222/
 END:VEVENT
 BEGIN:VEVENT
@@ -63,16 +75,22 @@ UID:b598c94f-8b1a-4846-bea8-42dd684520cc@b598.org
 URL:https://www.imdb.com/title/tt36352591/
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260611
+SUMMARY:🎥 Power Ballad
+UID:0f31b2e4-5a77-45b0-bc72-99f2cfbda27d@0f31.org
+URL:https://www.imdb.com/title/tt32267691/
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260617
 SUMMARY:🎥 Toy Story 5
 UID:9592e9fc-0ae6-4df9-ac06-2ed551c3a8ed@9592.org
 URL:https://www.imdb.com/title/tt29355505/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260611
-SUMMARY:🎥 Power Ballad
-UID:0f31b2e4-5a77-45b0-bc72-99f2cfbda27d@0f31.org
-URL:https://www.imdb.com/title/tt32267691/
+DTSTART;VALUE=DATE:20260625
+SUMMARY:🎥 My Life with Shurastey
+UID:861ad694-5e67-4602-8599-5c2ca331144b@861a.org
+URL:https://www.imdb.com/title/tt32558909/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260528
@@ -81,28 +99,16 @@ UID:facc77b3-bc55-41d1-9f0b-872e8365725a@facc.org
 URL:https://www.imdb.com/title/tt31189814/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260709
-SUMMARY:🎥 Moana
-UID:efc4c0b1-3775-4af4-ac55-8a66c03965f5@efc4.org
-URL:https://www.imdb.com/title/tt27419466/
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260611
 SUMMARY:🎥 Tuner
 UID:36957a88-5658-41dd-8cf2-145c8e651ccc@3695.org
 URL:https://www.imdb.com/title/tt33296751/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260709
-SUMMARY:🎥 The Invite
-UID:2d03dc77-f636-4a1b-be72-a114038c6713@2d03.org
-URL:https://www.imdb.com/title/tt14173636/
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260625
-SUMMARY:🎥 My Life with Shurastey
-UID:4d48f67e-39e1-426f-83cb-425d69aa373a@4d48.org
-URL:https://www.imdb.com/title/tt32558909/
+SUMMARY:🎥 Supergirl
+UID:81f4bb8e-1ac5-4a14-bf5c-7995bc55ac82@81f4.org
+URL:https://www.imdb.com/title/tt8814476/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260605
@@ -117,22 +123,28 @@ UID:8f7bf88a-cc5a-401f-a281-251a3fcfbab3@8f7b.org
 URL:https://www.imdb.com/title/tt15047880/
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260801
+SUMMARY:🎥 O Garoto do Cachecol Vermelho
+UID:73edf994-9c5a-46c8-b219-ddc06ddfd7f5@73ed.org
+URL:https://www.imdb.com/title/tt36986173/
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260528
 SUMMARY:🎥 Bitter Christmas
 UID:14f389d9-f4ac-40ae-87c8-54eb0019cd4f@14f3.org
 URL:https://www.imdb.com/title/tt28088049/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260614
-SUMMARY:🎥 Animals United 2: The Chilldown
-UID:f2be434e-7d40-494d-95b1-c0ed846304e3@f2be.org
-URL:https://www.imdb.com/title/tt39197200/
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260909
 SUMMARY:🎥 Tom and Jerry: Forbidden Compass
 UID:b0596190-4fb8-41e3-b813-c5ef7544ef7c@b059.org
 URL:https://www.imdb.com/title/tt37185884/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260614
+SUMMARY:🎥 Animals United 2: The Chilldown
+UID:f2be434e-7d40-494d-95b1-c0ed846304e3@f2be.org
+URL:https://www.imdb.com/title/tt39197200/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260604
@@ -153,16 +165,22 @@ UID:6f8e0e49-e7d7-4fda-ba74-fda7ac053fdc@6f8e.org
 URL:https://www.imdb.com/title/tt40367570/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260513
-SUMMARY:🎥 The Bus: A French Football Mutiny
-UID:fb5d9f83-9b1a-4896-a196-701087a7196f@fb5d.org
-URL:https://www.imdb.com/title/tt37024319/
+DTSTART;VALUE=DATE:20260702
+SUMMARY:🎥 Minions & Monsters
+UID:4afc3927-79c0-4b90-bc0c-e0053b641cc9@4afc.org
+URL:https://www.imdb.com/title/tt32890033/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260723
 SUMMARY:🎥 Marsupilami
-UID:6d0941e5-4fff-41c2-acb8-dee2bda2f1a3@6d09.org
+UID:40e68d5a-45e3-4ca2-9052-e27aceea17d5@40e6.org
 URL:https://www.imdb.com/title/tt33029380/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260709
+SUMMARY:🎥 The Invite
+UID:b2c6016e-f916-4a41-a506-b9e8e2428f2b@b2c6.org
+URL:https://www.imdb.com/title/tt14173636/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260528
@@ -175,11 +193,5 @@ DTSTART;VALUE=DATE:20260528
 SUMMARY:🎥 Fleak
 UID:7094026d-f1bb-4013-b672-395b7434c1ce@7094.org
 URL:https://www.imdb.com/title/tt14813764/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260702
-SUMMARY:🎥 Minions & Monsters
-UID:5c0d3367-35a3-4d5e-a814-522f3ce2fca5@5c0d.org
-URL:https://www.imdb.com/title/tt32890033/
 END:VEVENT
 END:VCALENDAR
