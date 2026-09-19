@@ -1,5 +1,6 @@
 import os
 import re
+import sys
 import requests
 from datetime import date, timedelta
 from ics import Calendar, Event
@@ -186,7 +187,7 @@ def main():
     edges = fetch_events()
     if edges is None:
         print("Abortando: não foi possível buscar eventos da API.")
-        return
+        sys.exit(1)
 
     merged = merge_events(edges, existing_events)
 
