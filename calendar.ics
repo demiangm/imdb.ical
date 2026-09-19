@@ -3,22 +3,16 @@ X-WR-CALNAME:Lançamentos filmes Brasil - Imdb
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261001
-SUMMARY:🎥 Pinocchio: Unstrung
-UID:ab6473f0-8f7c-495f-8906-74b7cad44741@ab64.org
-URL:https://www.imdb.com/title/tt30887701/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261008
-SUMMARY:🎥 Runner
-UID:09389595-2a4b-4b97-aa09-de9a05973d40@0938.org
-URL:https://www.imdb.com/title/tt31349844/
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260827
 SUMMARY:🎥 Coyote vs. Acme
 UID:5f9aee5a-44e8-4553-9629-86392ec8f612@5f9a.org
 URL:https://www.imdb.com/title/tt1756855/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260924
+SUMMARY:🎥 Heart of the Beast
+UID:b49fd1c6-8288-42d9-9acd-bc24a1fecacf@b49f.org
+URL:https://www.imdb.com/title/tt7526136/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260903
@@ -27,16 +21,10 @@ UID:efedd181-3542-406a-bce2-4c88e7be30ce@efed.org
 URL:https://www.imdb.com/title/tt32547691/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260924
-SUMMARY:🎥 Heart of the Beast
-UID:6182a42d-5c04-4dd4-9a35-952a270cbc23@6182.org
-URL:https://www.imdb.com/title/tt7526136/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250816
-SUMMARY:🎥 Nó
-UID:c30e751e-55ec-4403-b1fe-93320f25043d@c30e.org
-URL:https://www.imdb.com/title/tt28439261/
+DTSTART;VALUE=DATE:20261001
+SUMMARY:🎥 Digger
+UID:00807a9d-f968-4333-ad70-73a423508f1e@0080.org
+URL:https://www.imdb.com/title/tt31450459/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260820
@@ -45,40 +33,28 @@ UID:c3af0f40-5ac5-48ea-9a65-a622d9dc4093@c3af.org
 URL:https://www.imdb.com/title/tt32338669/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261008
-SUMMARY:🎥 Tad and the Magic Lamp
-UID:ccf7af9e-b6a6-475a-ab64-aa7186fab28d@ccf7.org
-URL:https://www.imdb.com/title/tt36164852/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261008
-SUMMARY:🎥 Se Eu Fosse Você 3
-UID:84537796-6a44-4f8b-a768-b8b2928a076d@8453.org
-URL:https://www.imdb.com/title/tt2216550/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261015
-SUMMARY:🎥 Sense and Sensibility
-UID:466aa402-79cd-45ef-b576-919688350dc8@466a.org
-URL:https://www.imdb.com/title/tt13609648/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260820
-SUMMARY:🎥 Era Uma Vez Minha 1ª Vez
-UID:28e0fb69-79d5-42a3-9a3d-bf2eb65f5d96@28e0.org
-URL:https://www.imdb.com/title/tt39796908/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261029
-SUMMARY:🎥 As Dez Vantagens de Morrer Depois de Você
-UID:9fe27f6f-1cb3-4ad9-a55c-73355542ff3c@9fe2.org
-URL:https://www.imdb.com/title/tt39565792/
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261002
 SUMMARY:🎥 Verity
-UID:fa3462de-e55f-45d2-af7f-1f7743ec59a4@fa34.org
+UID:5ed3b8ad-d524-4551-9df9-a6a8566d26ec@5ed3.org
 URL:https://www.imdb.com/title/tt32261958/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261012
+SUMMARY:🎥 Lisa
+UID:65a4543a-424a-441d-bf6a-3dc45a960678@65a4.org
+URL:https://www.imdb.com/title/tt37108970/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261022
+SUMMARY:🎥 Dogs at the Opera
+UID:4693981d-477e-46f5-a8f3-ece619cc3c52@4693.org
+URL:https://www.imdb.com/title/tt26448350/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251010
+SUMMARY:🎥 Virtuosas
+UID:3e95579c-a40b-44c1-aeae-28665bcc8971@3e95.org
+URL:https://www.imdb.com/title/tt33481268/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261016
@@ -87,22 +63,22 @@ UID:cc0c90c5-aaa8-4423-82a9-de4c81866db7@cc0c.org
 URL:https://www.imdb.com/title/tt42004484/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261022
-SUMMARY:🎥 Dogs at the Opera
-UID:70766d50-c577-4f54-a4c5-728720730496@7076.org
-URL:https://www.imdb.com/title/tt26448350/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261022
-SUMMARY:🎥 Clayface
-UID:eab6032f-eb55-4a50-be4a-ec13ddaf7ed7@eab6.org
-URL:https://www.imdb.com/title/tt34890576/
+DTSTART;VALUE=DATE:20260924
+SUMMARY:🎥 Forgotten Island
+UID:9c96a59f-ea50-40cd-83c0-daf63f1c9698@9c96.org
+URL:https://www.imdb.com/title/tt36583977/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260903
 SUMMARY:🎥 My Best Friend
 UID:49b4df46-2922-4055-bac6-0084197975f1@49b4.org
 URL:https://www.imdb.com/title/tt37458193/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261022
+SUMMARY:🎥 One Piece: Clockwork Island Adventure
+UID:c3791371-5605-4fe0-9055-c8edcd5a7b17@c379.org
+URL:https://www.imdb.com/title/tt0832449/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260827
@@ -117,46 +93,64 @@ UID:e1f9feb2-9713-4034-9608-47f0e22b40b8@e1f9.org
 URL:https://www.imdb.com/title/tt34959976/
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261001
+SUMMARY:🎥 Galinha Pintadinha: O Filme
+UID:b2183353-6bf6-4447-8866-89df45efeb03@b218.org
+URL:https://www.imdb.com/title/tt39482377/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261022
+SUMMARY:🎥 A Girl Named Willow
+UID:31f685dd-5edc-4cb8-a946-1388936fae2b@31f6.org
+URL:https://www.imdb.com/title/tt35300281/
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261029
 SUMMARY:🎥 100 Dias
-UID:d38df5a8-0fff-4594-8291-7ff248ef5457@d38d.org
+UID:30216d4a-b6eb-4732-a068-a415b76fcf58@3021.org
 URL:https://www.imdb.com/title/tt15006536/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251010
-SUMMARY:🎥 Virtuosas
-UID:d76efd44-dd32-49c1-aad3-d0aac9b2b12b@d76e.org
-URL:https://www.imdb.com/title/tt33481268/
+DTSTART;VALUE=DATE:20260820
+SUMMARY:🎥 Era Uma Vez Minha 1ª Vez
+UID:706a7296-a9a2-4b7f-bef7-f6d017811590@706a.org
+URL:https://www.imdb.com/title/tt39796908/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261029
-SUMMARY:🎥 Super-Charlie
-UID:5b965e57-0590-4ffd-b6df-dd74716baded@5b96.org
-URL:https://www.imdb.com/title/tt28639152/
+SUMMARY:🎥 As Dez Vantagens de Morrer Depois de Você
+UID:9e171dfd-2b65-4081-b8ea-a8ce87183562@9e17.org
+URL:https://www.imdb.com/title/tt39565792/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261015
-SUMMARY:🎥 Onslaught
-UID:35628554-2abb-4a60-a9ba-2b32afd3ba01@3562.org
-URL:https://www.imdb.com/title/tt32268691/
+SUMMARY:🎥 Sense and Sensibility
+UID:812cb872-7d8e-4fae-a6fd-90ce1271ab1b@812c.org
+URL:https://www.imdb.com/title/tt13609648/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261001
-SUMMARY:🎥 Digger
-UID:28a2215e-e01d-4ac5-9140-aa84b3bc93bf@28a2.org
-URL:https://www.imdb.com/title/tt31450459/
+DTSTART;VALUE=DATE:20261022
+SUMMARY:🎥 Clayface
+UID:c4c02063-b180-43db-90b7-32c56110df22@c4c0.org
+URL:https://www.imdb.com/title/tt34890576/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261029
-SUMMARY:🎥 By Any Means
-UID:14aaf98f-9c0f-4103-ae6a-861759ffda35@14aa.org
-URL:https://www.imdb.com/title/tt34379051/
+DTSTART;VALUE=DATE:20261008
+SUMMARY:🎥 Tad and the Magic Lamp
+UID:00167cc8-8588-45ef-beea-3178e6a54764@0016.org
+URL:https://www.imdb.com/title/tt36164852/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20241004
 SUMMARY:🎥 Fuse
-UID:4c1d522b-ddd8-4c1c-a4eb-69939dcfeeda@4c1d.org
+UID:c1175c33-8b21-4b5d-ac5d-ac47ed2058a2@c117.org
 URL:https://www.imdb.com/title/tt29580289/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261008
+SUMMARY:🎥 Runner
+UID:2c8732be-f51c-4c80-bdd4-0228491d8560@2c87.org
+URL:https://www.imdb.com/title/tt31349844/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260827
@@ -165,22 +159,16 @@ UID:efe5db89-ea68-401d-86eb-7164072024f5@efe5.org
 URL:https://www.imdb.com/title/tt36893729/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261022
-SUMMARY:🎥 The Proud Princess
-UID:3bc1e9d7-266f-4336-8286-aeb9ec6cca57@3bc1.org
-URL:https://www.imdb.com/title/tt10996076/
+DTSTART;VALUE=DATE:20261008
+SUMMARY:🎥 Se Eu Fosse Você 3
+UID:d6f85f68-0041-4cc4-8c1f-ebb388e8e70b@d6f8.org
+URL:https://www.imdb.com/title/tt2216550/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261022
-SUMMARY:🎥 One Piece: Clockwork Island Adventure
-UID:55b62f20-50bd-45dd-bcc9-4a49a5357d9f@55b6.org
-URL:https://www.imdb.com/title/tt0832449/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260924
-SUMMARY:🎥 Fall 2: Deadpoint
-UID:dcdfedc9-822a-46b3-8cd9-820492070a2a@dcdf.org
-URL:https://www.imdb.com/title/tt31192372/
+DTSTART;VALUE=DATE:20261029
+SUMMARY:🎥 Wildwood
+UID:cd66d33b-fe65-420a-8077-3e7d9944e4f4@cd66.org
+URL:https://www.imdb.com/title/tt2056785/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260909
@@ -189,39 +177,51 @@ UID:b0596190-4fb8-41e3-b813-c5ef7544ef7c@b059.org
 URL:https://www.imdb.com/title/tt37185884/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260924
-SUMMARY:🎥 Forgotten Island
-UID:3b315e8f-b1e8-43be-bec9-21a38b07bf15@3b31.org
-URL:https://www.imdb.com/title/tt36583977/
+DTSTART;VALUE=DATE:20261001
+SUMMARY:🎥 Pinocchio: Unstrung
+UID:95338e13-a981-45e0-ab8f-b9d28ce80bd4@9533.org
+URL:https://www.imdb.com/title/tt30887701/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261015
+SUMMARY:🎥 Onslaught
+UID:15613388-a738-47d9-825c-b0f8efd5cedc@1561.org
+URL:https://www.imdb.com/title/tt32268691/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261029
+SUMMARY:🎥 Super-Charlie
+UID:1ee3dbe3-7379-46d3-8259-214dcfec13cc@1ee3.org
+URL:https://www.imdb.com/title/tt28639152/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261022
 SUMMARY:🎥 Overman
-UID:a7c3c4af-6ff7-4109-b255-d1cefd37cb79@a7c3.org
+UID:ec623ca4-35b7-4cac-833d-c15e97b77dbe@ec62.org
 URL:https://www.imdb.com/title/tt29291392/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261022
-SUMMARY:🎥 A Girl Named Willow
-UID:5b24ff6d-086e-4297-a98b-53aaa904e675@5b24.org
-URL:https://www.imdb.com/title/tt35300281/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261001
-SUMMARY:🎥 Galinha Pintadinha: O Filme
-UID:8ec7de2a-7c34-4bb9-9df5-7ea50ea78799@8ec7.org
-URL:https://www.imdb.com/title/tt39482377/
+SUMMARY:🎥 The Proud Princess
+UID:5f0134c4-3ff2-4d33-8545-4b82808f6e6d@5f01.org
+URL:https://www.imdb.com/title/tt10996076/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261029
-SUMMARY:🎥 Wildwood
-UID:88b2d1fe-2439-4f8d-8d8e-ee26e9abe86d@88b2.org
-URL:https://www.imdb.com/title/tt2056785/
+SUMMARY:🎥 By Any Means
+UID:44f83b26-174e-45a6-b9b0-2ac48a2eb35f@44f8.org
+URL:https://www.imdb.com/title/tt34379051/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261012
-SUMMARY:🎥 Lisa
-UID:8a1eda64-3e5e-4d50-bec6-c7d6f9365d3a@8a1e.org
-URL:https://www.imdb.com/title/tt37108970/
+DTSTART;VALUE=DATE:20250816
+SUMMARY:🎥 Nó
+UID:dfa38f21-0082-41f5-9f64-3d0422fdb480@dfa3.org
+URL:https://www.imdb.com/title/tt28439261/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260924
+SUMMARY:🎥 Fall 2: Deadpoint
+UID:4fa65f88-5449-45ef-8b94-8011be1b7c6f@4fa6.org
+URL:https://www.imdb.com/title/tt31192372/
 END:VEVENT
 END:VCALENDAR
