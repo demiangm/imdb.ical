@@ -23,7 +23,6 @@ QUERY = """
 {
   comingSoon(
     comingSoonType: MOVIE,
-    regionOverride: "BR",
     first: 250,
     releasingOnOrAfter: "%s"
   ) {
