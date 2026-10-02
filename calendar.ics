@@ -3,40 +3,58 @@ X-WR-CALNAME:Lançamentos filmes Brasil - Imdb
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261030
-SUMMARY:🎥 BTS World Tour 'Arirang' in São Paulo: Live Viewing
-UID:4eb0e2c5-4f5d-4ca6-89dc-c73698ba475f@4eb0.org
-URL:https://www.imdb.com/title/tt45591708/
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260925
 SUMMARY:🎥 Charlie Harper
 UID:4ab6a02e-43ad-4c89-8926-513811ad870d@4ab6.org
 URL:https://www.imdb.com/title/tt27739255/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261106
-SUMMARY:🎥 Ramayana
-UID:e31cfdc9-07c4-497c-bde9-29927dc3ef8e@e31c.org
-URL:https://www.imdb.com/title/tt27988879/
+DTSTART;VALUE=DATE:20261002
+SUMMARY:🎥 The Scout
+UID:49a707ab-7a1b-4ef5-af9b-9b45cc21b7ae@49a7.org
+URL:https://www.imdb.com/title/tt36590599/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261030
-SUMMARY:🎥 Sight & Sound Presents: JOSHUA Live!
-UID:caa2f8f6-4a4b-4e74-8883-3aa53e1194f4@caa2.org
-URL:https://www.imdb.com/title/tt43622757/
+DTSTART;VALUE=DATE:20261009
+SUMMARY:🎥 Your Mother Your Mother Your Mother
+UID:a487fa32-ed08-4f2f-b8a4-9d6854388f92@a487.org
+URL:https://www.imdb.com/title/tt35856037/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261104
+SUMMARY:🎥 The Last Temptation of Becky
+UID:ae1d70df-3311-467a-8bf4-7416938cd8e2@ae1d.org
+URL:https://www.imdb.com/title/tt40210362/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261105
-SUMMARY:🎥 Godzilla Minus Zero
-UID:d9f1e3e2-5d7c-4b72-936a-309cf9782013@d9f1.org
-URL:https://www.imdb.com/title/tt34384661/
+SUMMARY:🎥 The One
+UID:385a2f10-057a-4f02-a8e9-ef28a9941b3b@385a.org
+URL:https://www.imdb.com/title/tt34446639/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261028
-SUMMARY:🎥 Closure
-UID:e5f1f431-e7cd-439c-9c36-d8cec58a6c0c@e5f1.org
-URL:https://www.imdb.com/title/tt39075417/
+DTSTART;VALUE=DATE:20261002
+SUMMARY:🎥 Beware Boiúna
+UID:a1a98e42-6e03-40c6-8f82-9e1060a46df5@a1a9.org
+URL:https://www.imdb.com/title/tt10377864/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261015
+SUMMARY:🎥 Jailer 2
+UID:d9b5482f-4af4-41ca-8086-38335fef111d@d9b5.org
+URL:https://www.imdb.com/title/tt33318732/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261113
+SUMMARY:🎥 Mouse
+UID:f7d97b85-9b2d-4fd7-81c3-7352eb3cfbe5@f7d9.org
+URL:https://www.imdb.com/title/tt13652154/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261007
+SUMMARY:🎥 Queen Live in Budapest
+UID:f6c5921a-a15a-4625-88d6-88a51c21627d@f6c5.org
+URL:https://www.imdb.com/title/tt0093427/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261022
@@ -45,28 +63,22 @@ UID:c3791371-5605-4fe0-9055-c8edcd5a7b17@c379.org
 URL:https://www.imdb.com/title/tt0832449/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261002
-SUMMARY:🎥 The Scout
-UID:24215d28-8106-4ccd-8a9a-f6a96d489ea4@2421.org
-URL:https://www.imdb.com/title/tt36590599/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261106
-SUMMARY:🎥 The Cat in the Hat
-UID:bd6a9429-0fce-4126-9078-cbc3620293b7@bd6a.org
-URL:https://www.imdb.com/title/tt2321555/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261023
-SUMMARY:🎥 Musk
-UID:fa180cac-e1c1-471e-b43e-dd3e782319c8@fa18.org
-URL:https://www.imdb.com/title/tt27041231/
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261022
 SUMMARY:🎥 A Girl Named Willow
 UID:31f685dd-5edc-4cb8-a946-1388936fae2b@31f6.org
 URL:https://www.imdb.com/title/tt35300281/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261113
+SUMMARY:🎥 God with Us
+UID:4cf21923-adc2-457f-8811-30f16a7e1258@4cf2.org
+URL:https://www.imdb.com/title/tt38060517/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261009
+SUMMARY:🎥 A Prayer for the Dying
+UID:bccb62c5-a1cc-4fcf-a05f-f0287f34818b@bccb.org
+URL:https://www.imdb.com/title/tt31183803/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261029
@@ -75,10 +87,40 @@ UID:9e171dfd-2b65-4081-b8ea-a8ce87183562@9e17.org
 URL:https://www.imdb.com/title/tt39565792/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261016
-SUMMARY:🎥 The Trial of Alec Baldwin
-UID:9d8e5cec-1fd8-4f84-9995-ff7b6120b35d@9d8e.org
-URL:https://www.imdb.com/title/tt38633147/
+DTSTART;VALUE=DATE:20261009
+SUMMARY:🎥 Angel and the Badman
+UID:6ef99e44-e47f-48ba-84ae-ad768fcaf70b@6ef9.org
+URL:https://www.imdb.com/title/tt39850240/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261004
+SUMMARY:🎥 Adore Him
+UID:b357035e-7602-4638-8746-dafa787fe1d7@b357.org
+URL:https://www.imdb.com/title/tt42693626/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261002
+SUMMARY:🎥 Rolling Loud
+UID:1897f3aa-2a5f-49d9-a677-2f8432e50631@1897.org
+URL:https://www.imdb.com/title/tt33184695/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261113
+SUMMARY:🎥 Being Heumann
+UID:37bfd9ed-6c98-473d-b1ae-815cb688e859@37bf.org
+URL:https://www.imdb.com/title/tt15095848/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261030
+SUMMARY:🎥 Sight & Sound Presents: JOSHUA Live!
+UID:3d79ffeb-73ac-481c-b905-3b49fe2a1c55@3d79.org
+URL:https://www.imdb.com/title/tt43622757/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261106
+SUMMARY:🎥 Paradise Lost
+UID:11c6ab13-fed2-40e0-9a84-d7ba953be0cd@11c6.org
+URL:https://www.imdb.com/title/tt43658893/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260925
@@ -87,10 +129,10 @@ UID:7d48ac9b-6fd9-4704-9a7a-7dcf7a602597@7d48.org
 URL:https://www.imdb.com/title/tt34498564/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261009
-SUMMARY:🎥 André Leon Talley: Style Is Forever
-UID:30dd3276-7eb5-4901-8402-8cf94534176f@30dd.org
-URL:https://www.imdb.com/title/tt39216435/
+DTSTART;VALUE=DATE:20261015
+SUMMARY:🎥 Sense and Sensibility
+UID:6d1c043a-9f9e-46bb-8265-2011cdf1fd05@6d1c.org
+URL:https://www.imdb.com/title/tt13609648/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261022
@@ -99,16 +141,28 @@ UID:ec623ca4-35b7-4cac-833d-c15e97b77dbe@ec62.org
 URL:https://www.imdb.com/title/tt29291392/
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261029
+SUMMARY:🎥 Wildwood
+UID:a589e0d3-e6fc-4ad8-bf56-8ccc336aeb60@a589.org
+URL:https://www.imdb.com/title/tt2056785/
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260924
 SUMMARY:🎥 The Paradise
 UID:b1ec8907-4c07-4b76-bbb6-76c19f303626@b1ec.org
 URL:https://www.imdb.com/title/tt31969655/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261015
-SUMMARY:🎥 Jailer 2
-UID:ac955b2d-91fc-480f-908a-167b0190ed76@ac95.org
-URL:https://www.imdb.com/title/tt33318732/
+DTSTART;VALUE=DATE:20261002
+SUMMARY:🎥 Verity
+UID:41b168f1-241e-4ae8-b2a8-ae450b52eb78@41b1.org
+URL:https://www.imdb.com/title/tt32261958/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261103
+SUMMARY:🎥 Operation Kabul
+UID:0465e606-ad36-4421-915c-38411967d1dc@0465.org
+URL:https://www.imdb.com/title/tt34375721/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260924
@@ -117,16 +171,16 @@ UID:3a709d6f-d8e7-4b84-8636-53a4e4c736a0@3a70.org
 URL:https://www.imdb.com/title/tt7526136/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261030
-SUMMARY:🎥 Queen at Sea
-UID:c9a8d478-e5fd-47e9-8d11-5cbade6b488f@c9a8.org
-URL:https://www.imdb.com/title/tt27541205/
+DTSTART;VALUE=DATE:20261002
+SUMMARY:🎥 The Influencer Project
+UID:6deea594-706c-4f75-972a-1cc2b5b8ee9f@6dee.org
+URL:https://www.imdb.com/title/tt42643242/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261106
-SUMMARY:🎥 Jimmy
-UID:a91089e1-2864-4417-803f-eccba556c77c@a910.org
-URL:https://www.imdb.com/title/tt31179962/
+DTSTART;VALUE=DATE:20261009
+SUMMARY:🎥 World Without Cows
+UID:f18e3e4a-bb6d-46f7-a374-0440e8319b27@f18e.org
+URL:https://www.imdb.com/title/tt36363878/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261012
@@ -136,9 +190,27 @@ URL:https://www.imdb.com/title/tt37108970/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261030
-SUMMARY:🎥 The King of Cannabis
-UID:727f4edf-a5e4-4c3d-9380-be8e3a978d0a@727f.org
-URL:https://www.imdb.com/title/tt43699387/
+SUMMARY:🎥 Wicker
+UID:fd56a8b7-5dab-434f-ad57-51cde6106f6c@fd56.org
+URL:https://www.imdb.com/title/tt29611136/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261016
+SUMMARY:🎥 Ranabaali
+UID:bcf543af-dfb5-406b-a608-9458d939eb82@bcf5.org
+URL:https://www.imdb.com/title/tt32324552/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261023
+SUMMARY:🎥 Klara and the Sun
+UID:8a37bebf-bd31-4d45-9392-c6cd2329fea1@8a37.org
+URL:https://www.imdb.com/title/tt14371256/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261030
+SUMMARY:🎥 Queen at Sea
+UID:9db5ecd2-c38a-4970-8119-65720ed7906a@9db5.org
+URL:https://www.imdb.com/title/tt27541205/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260925
@@ -147,40 +219,28 @@ UID:6b5dd6e1-b711-452c-b4c3-edabce217db8@6b5d.org
 URL:https://www.imdb.com/title/tt34206385/
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261106
+SUMMARY:🎥 Drummer Boy
+UID:3baa9c03-dd3d-455e-8b64-bbb1e9eb7dcc@3baa.org
+URL:https://www.imdb.com/title/tt10098420/
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260925
 SUMMARY:🎥 You Had to Be There: How the Toronto Godspell Ignited the Comedy Revolution\, Spread Love & Overalls\, and Created a Community That Changed the World (in a Canadian Kind of Way)
 UID:e99b5d02-893e-4b88-b432-21ba379aac94@e99b.org
 URL:https://www.imdb.com/title/tt31726535/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261030
-SUMMARY:🎥 Christmas at the Kringles
-UID:a946b3c2-1a2f-426f-9162-72e52836dfcc@a946.org
-URL:https://www.imdb.com/title/tt42588704/
+DTSTART;VALUE=DATE:20261001
+SUMMARY:🎥 Digger
+UID:3fb3e2ee-5e49-4f90-b234-de6784870341@3fb3.org
+URL:https://www.imdb.com/title/tt31450459/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261030
-SUMMARY:🎥 Everest: The Other Side
-UID:2480c2eb-253c-4f23-91b6-1a14aefe136f@2480.org
-URL:https://www.imdb.com/title/tt38691481/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261106
-SUMMARY:🎥 Paradise Lost
-UID:7fa43378-97c4-461b-8c9b-60826aeb20d4@7fa4.org
-URL:https://www.imdb.com/title/tt43658893/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261106
-SUMMARY:🎥 Raise the Red Lantern
-UID:a6861d33-9258-4082-a924-c6a5442755b4@a686.org
-URL:https://www.imdb.com/title/tt0101640/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261002
-SUMMARY:🎥 Appofeniacs
-UID:ef954436-f0a3-4d00-b945-d89a48c03837@ef95.org
-URL:https://www.imdb.com/title/tt29870331/
+DTSTART;VALUE=DATE:20261028
+SUMMARY:🎥 Closure
+UID:b525d34e-0c88-4a74-9442-fba9c652925e@b525.org
+URL:https://www.imdb.com/title/tt39075417/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260903
@@ -189,22 +249,22 @@ UID:49b4df46-2922-4055-bac6-0084197975f1@49b4.org
 URL:https://www.imdb.com/title/tt37458193/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261004
-SUMMARY:🎥 Adore Him
-UID:2de1d9c2-dce8-4f19-9044-30ab6bdc3798@2de1.org
-URL:https://www.imdb.com/title/tt42693626/
+DTSTART;VALUE=DATE:20261009
+SUMMARY:🎥 Fjord
+UID:50ae7d28-1de0-4292-9234-b54cb17fd69c@50ae.org
+URL:https://www.imdb.com/title/tt35410859/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260827
-SUMMARY:🎥 One Night Only
-UID:a920d3ef-1a6b-456b-b085-8f9b0c79140d@a920.org
-URL:https://www.imdb.com/title/tt37853455/
+DTSTART;VALUE=DATE:20261023
+SUMMARY:🎥 Musk
+UID:e111089c-9e60-4abc-a782-a080b8916729@e111.org
+URL:https://www.imdb.com/title/tt27041231/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261031
-SUMMARY:🎥 Holy Father
-UID:4f0719b9-d835-4c11-9fb8-28dfe08b324a@4f07.org
-URL:https://www.imdb.com/title/tt36465142/
+DTSTART;VALUE=DATE:20261030
+SUMMARY:🎥 Christmas at the Kringles
+UID:3a857f45-a7d9-40c7-8b45-b889e522c3a2@3a85.org
+URL:https://www.imdb.com/title/tt42588704/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261029
@@ -219,10 +279,10 @@ UID:00167cc8-8588-45ef-beea-3178e6a54764@0016.org
 URL:https://www.imdb.com/title/tt36164852/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261029
-SUMMARY:🎥 Wildwood
-UID:68d687d1-d95f-4f88-8c94-329843b14ec4@68d6.org
-URL:https://www.imdb.com/title/tt2056785/
+DTSTART;VALUE=DATE:20261113
+SUMMARY:🎥 How to Rob a Bank
+UID:8472ca47-d61d-47cd-9240-7c72e7bf6f20@8472.org
+URL:https://www.imdb.com/title/tt35866986/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261008
@@ -237,10 +297,10 @@ UID:d20a796a-2776-4437-9e74-32f7d7a529fc@d20a.org
 URL:https://www.imdb.com/title/tt34611096/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261105
-SUMMARY:🎥 The One
-UID:8afe1ebf-fcdf-4f64-9d9d-7445a4a974f8@8afe.org
-URL:https://www.imdb.com/title/tt34446639/
+DTSTART;VALUE=DATE:20261112
+SUMMARY:🎥 Ebenezer
+UID:a51f3bf0-51df-47c1-add5-70529c8c8d7a@a51f.org
+URL:https://www.imdb.com/title/tt38773219/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261029
@@ -249,22 +309,16 @@ UID:1ee3dbe3-7379-46d3-8259-214dcfec13cc@1ee3.org
 URL:https://www.imdb.com/title/tt28639152/
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261030
+SUMMARY:🎥 BTS World Tour 'Arirang' in São Paulo: Live Viewing
+UID:ce02c7f7-8fab-4e6d-9bdc-4781ef433cad@ce02.org
+URL:https://www.imdb.com/title/tt45591708/
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261009
-SUMMARY:🎥 The Social Reckoning
-UID:040f7ed7-dad4-4ec4-a908-0a7c0500e78a@040f.org
-URL:https://www.imdb.com/title/tt37510326/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261016
-SUMMARY:🎥 Trust Me\, I'm a Doctor
-UID:39726cb5-0e68-4f77-9e6e-9759fa6358c1@3972.org
-URL:https://www.imdb.com/title/tt31456607/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261016
-SUMMARY:🎥 Crawlers
-UID:ba3588e6-c4df-46e8-a353-48e57d85e50d@ba35.org
-URL:https://www.imdb.com/title/tt32329539/
+SUMMARY:🎥 Other Mommy
+UID:16eef93a-622b-49cb-b62c-630d7dbd6023@16ee.org
+URL:https://www.imdb.com/title/tt36586020/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261022
@@ -273,64 +327,52 @@ UID:5f0134c4-3ff2-4d33-8545-4b82808f6e6d@5f01.org
 URL:https://www.imdb.com/title/tt10996076/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261002
-SUMMARY:🎥 Beware Boiúna
-UID:d194bf7d-1476-4f82-81a6-d507489951c7@d194.org
-URL:https://www.imdb.com/title/tt10377864/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261007
-SUMMARY:🎥 Vampire Carnival
-UID:c81e8357-e9c1-4c55-8fcf-5041aa156379@c81e.org
-URL:https://www.imdb.com/title/tt39649289/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261028
-SUMMARY:🎥 On the Road
-UID:b1dd643c-06ba-408f-befe-2d61a2b5b7d6@b1dd.org
-URL:https://www.imdb.com/title/tt37660509/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261002
-SUMMARY:🎥 The Last First: Winter K2
-UID:ed7decaf-4e65-4e40-884e-21dc8ee8fdb1@ed7d.org
-URL:https://www.imdb.com/title/tt39150288/
+DTSTART;VALUE=DATE:20251017
+SUMMARY:🎥 California Schemin'
+UID:1cb515c9-5841-44ce-a218-5b87c952ae8e@1cb5.org
+URL:https://www.imdb.com/title/tt29549490/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261016
-SUMMARY:🎥 Flywheel: Ignition of the Soul
-UID:f0266684-7b23-45b2-9dab-20da0639f140@f026.org
-URL:https://www.imdb.com/title/tt42004484/
+SUMMARY:🎥 Tazza: The Song of Beelzebub
+UID:972af9a1-90f6-4071-8d9a-971c4b4fe8af@972a.org
+URL:https://www.imdb.com/title/tt39233100/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261009
-SUMMARY:🎥 Fjord
-UID:2015de8c-f5f2-4001-921a-5f5f74ee3896@2015.org
-URL:https://www.imdb.com/title/tt35410859/
+DTSTART;VALUE=DATE:20261030
+SUMMARY:🎥 The King of Cannabis
+UID:7bd2066a-2f7d-436e-853b-d3af9f33f74d@7bd2.org
+URL:https://www.imdb.com/title/tt43699387/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261106
+SUMMARY:🎥 The Cat in the Hat
+UID:f7d63f95-ee12-44f2-9254-89d1a3a4dcb2@f7d6.org
+URL:https://www.imdb.com/title/tt2321555/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261022
+SUMMARY:🎥 Clayface
+UID:329c21e7-cf09-4ab2-8f37-a052c628736f@329c.org
+URL:https://www.imdb.com/title/tt34890576/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261016
-SUMMARY:🎥 Street Fighter
-UID:53b728e3-cb2f-417e-bfab-19f10e3a72c9@53b7.org
-URL:https://www.imdb.com/title/tt27419420/
+SUMMARY:🎥 Crawlers
+UID:59df0463-8e6e-4b71-9a0a-ac132a517abc@59df.org
+URL:https://www.imdb.com/title/tt32329539/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261002
-SUMMARY:🎥 Rolling Loud
-UID:430742ef-ac74-4b99-a967-4cc23d994d38@4307.org
-URL:https://www.imdb.com/title/tt33184695/
+DTSTART;VALUE=DATE:20261012
+SUMMARY:🎥 Fresh Meat
+UID:adf47a7a-d637-4b62-92d5-99e3d2d45335@adf4.org
+URL:https://www.imdb.com/title/tt46665146/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261106
 SUMMARY:🎥 Wild Horse Nine
-UID:33cdbeda-5235-4078-bb4d-f0e909cb7a3f@33cd.org
+UID:9b4d621e-01a0-4a22-9c6f-b54f2f31ad32@9b4d.org
 URL:https://www.imdb.com/title/tt15799564/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261016
-SUMMARY:🎥 Ranabaali
-UID:5e8d24c5-68eb-477f-ab12-21ece27940ec@5e8d.org
-URL:https://www.imdb.com/title/tt32324552/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261022
@@ -339,16 +381,16 @@ UID:4693981d-477e-46f5-a8f3-ece619cc3c52@4693.org
 URL:https://www.imdb.com/title/tt26448350/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261009
-SUMMARY:🎥 The Beast
-UID:24108393-f342-4550-8e12-b4dfe9387145@2410.org
-URL:https://www.imdb.com/title/tt29256561/
+DTSTART;VALUE=DATE:20261015
+SUMMARY:🎥 Street Fighter
+UID:f9d27ea5-da35-4098-9673-4998bbf4d15b@f9d2.org
+URL:https://www.imdb.com/title/tt27419420/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261023
-SUMMARY:🎥 Klara and the Sun
-UID:594c1ecd-922a-47e1-a1e0-93ea601335b6@594c.org
-URL:https://www.imdb.com/title/tt14371256/
+SUMMARY:🎥 Ali G: Who Iz I?
+UID:78668847-0fbb-4390-93b2-88df2c3bc54a@7866.org
+URL:https://www.imdb.com/title/tt43655467/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261009
@@ -358,21 +400,27 @@ URL:https://www.imdb.com/title/tt39730506/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261016
-SUMMARY:🎥 Tazza: The Song of Beelzebub
-UID:624e79cc-a884-4964-a9ec-b36e0e83cfb1@624e.org
-URL:https://www.imdb.com/title/tt39233100/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261001
-SUMMARY:🎥 Digger
-UID:85d4abe9-0aba-43bb-8e40-f62e55af8fd8@85d4.org
-URL:https://www.imdb.com/title/tt31450459/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261016
 SUMMARY:🎥 Terrestrial
 UID:9fccc76d-8eaa-482b-9eb1-be05f13c0f5d@9fcc.org
 URL:https://www.imdb.com/title/tt36870725/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261028
+SUMMARY:🎥 On the Road
+UID:7b78b29d-e68b-49ca-9619-2294af606ead@7b78.org
+URL:https://www.imdb.com/title/tt37660509/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261106
+SUMMARY:🎥 Ramayana
+UID:c8932b0b-6079-4777-8dba-8b9ff880b833@c893.org
+URL:https://www.imdb.com/title/tt27988879/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261002
+SUMMARY:🎥 Appofeniacs
+UID:9cdcfc53-165f-4c55-aaa1-a1832b47e611@9cdc.org
+URL:https://www.imdb.com/title/tt29870331/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260925
@@ -381,22 +429,34 @@ UID:81c4e432-92b6-453f-b333-b6371b41c5ae@81c4.org
 URL:https://www.imdb.com/title/tt38589433/
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261030
+SUMMARY:🎥 Everest: The Other Side
+UID:59fb1290-5aca-4335-a9ff-b882cac61ab1@59fb.org
+URL:https://www.imdb.com/title/tt38691481/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261016
+SUMMARY:🎥 Flywheel: Ignition of the Soul
+UID:280ae0bf-9b69-4f91-8bbf-06b473002f44@280a.org
+URL:https://www.imdb.com/title/tt42004484/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261030
+SUMMARY:🎥 The Canvas
+UID:5e73358c-5ebd-44d2-9e49-f812d468e106@5e73.org
+URL:https://www.imdb.com/title/tt39773403/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261008
+SUMMARY:🎥 SB19 Wakas at Simula: The Trilogy Concert Finale In Cinemas
+UID:76fb4415-95bf-4338-8c26-98dd4f7758c4@76fb.org
+URL:https://www.imdb.com/title/tt44932755/
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260924
 SUMMARY:🎥 Who Moves America
 UID:1047b141-1651-428d-8488-87b9c768b2ad@1047.org
 URL:https://www.imdb.com/title/tt28303275/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261015
-SUMMARY:🎥 Sense and Sensibility
-UID:1b6895a9-f8fa-4f6a-8ab3-10b040caed71@1b68.org
-URL:https://www.imdb.com/title/tt13609648/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261015
-SUMMARY:🎥 Onslaught
-UID:15613388-a738-47d9-825c-b0f8efd5cedc@1561.org
-URL:https://www.imdb.com/title/tt32268691/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261001
@@ -405,16 +465,28 @@ UID:95338e13-a981-45e0-ab8f-b9d28ce80bd4@9533.org
 URL:https://www.imdb.com/title/tt30887701/
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261015
+SUMMARY:🎥 Onslaught
+UID:15613388-a738-47d9-825c-b0f8efd5cedc@1561.org
+URL:https://www.imdb.com/title/tt32268691/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261106
+SUMMARY:🎥 Jimmy
+UID:dfaead75-e3b3-4c30-a43c-7fb430cbe55a@dfae.org
+URL:https://www.imdb.com/title/tt31179962/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261030
+SUMMARY:🎥 The Mongoose
+UID:5478d323-8b2a-45d4-97e5-508a48b6de6c@5478.org
+URL:https://www.imdb.com/title/tt13611778/
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260924
 SUMMARY:🎥 Forgotten Island
 UID:71b46b4c-0096-4d0c-a2fb-253f5577f7cd@71b4.org
 URL:https://www.imdb.com/title/tt36583977/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261024
-SUMMARY:🎥 BTS World Tour 'Arirang' in Buenos Aires: Live Viewing
-UID:c3632f20-0157-48bc-b683-7447db546105@c363.org
-URL:https://www.imdb.com/title/tt45591705/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261029
@@ -423,21 +495,33 @@ UID:44f83b26-174e-45a6-b9b0-2ac48a2eb35f@44f8.org
 URL:https://www.imdb.com/title/tt34379051/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261023
-SUMMARY:🎥 Ali G: Who Iz I?
-UID:e7678a02-781f-462e-af4a-f7f6c6c607b1@e767.org
-URL:https://www.imdb.com/title/tt43655467/
+DTSTART;VALUE=DATE:20261009
+SUMMARY:🎥 The Beast
+UID:d7f093fa-c1e3-403f-9cab-ff1f91eb8540@d7f0.org
+URL:https://www.imdb.com/title/tt29256561/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261007
+SUMMARY:🎥 Vampire Carnival
+UID:4d352336-bf7b-48b1-84af-1b4416912890@4d35.org
+URL:https://www.imdb.com/title/tt39649289/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261016
-SUMMARY:🎥 You Can See Everything
-UID:de52c1b7-a18c-4ae8-b5a4-2e2801256bd9@de52.org
-URL:https://www.imdb.com/title/tt45368240/
+SUMMARY:🎥 The Trial of Alec Baldwin
+UID:b03b2b4d-303c-4f13-9c67-d549109037cf@b03b.org
+URL:https://www.imdb.com/title/tt38633147/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261111
+SUMMARY:🎥 Soul Patrol
+UID:fc45b20d-c4cb-4802-a444-1f0404a9378e@fc45.org
+URL:https://www.imdb.com/title/tt38952225/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261009
 SUMMARY:🎥 Once Upon a Time in the Middle East
-UID:7f86c20f-6243-4765-b839-36e0ea3aafe3@7f86.org
+UID:09651ba7-6ecc-4b07-840f-907296c1289d@0965.org
 URL:https://www.imdb.com/title/tt34386754/
 END:VEVENT
 BEGIN:VEVENT
@@ -447,40 +531,10 @@ UID:4fa65f88-5449-45ef-8b94-8011be1b7c6f@4fa6.org
 URL:https://www.imdb.com/title/tt31192372/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261009
-SUMMARY:🎥 Angel and the Badman
-UID:a8c415a6-4045-46ad-9c5c-090b96ef0d6b@a8c4.org
-URL:https://www.imdb.com/title/tt39850240/
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260925
 SUMMARY:🎥 Mitrata
 UID:0f496b9f-81d0-4871-8497-9ba1465c667c@0f49.org
 URL:https://www.imdb.com/title/tt43641694/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260827
-SUMMARY:🎥 Coyote vs. Acme
-UID:5f9aee5a-44e8-4553-9629-86392ec8f612@5f9a.org
-URL:https://www.imdb.com/title/tt1756855/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261106
-SUMMARY:🎥 Drummer Boy
-UID:f89d2343-43eb-4e8d-852a-c9e30be6c08e@f89d.org
-URL:https://www.imdb.com/title/tt10098420/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261002
-SUMMARY:🎥 Verity
-UID:29e4a677-d895-40d8-9b35-388e257ed737@29e4.org
-URL:https://www.imdb.com/title/tt32261958/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261007
-SUMMARY:🎥 Queen Live in Budapest
-UID:86e3eeb9-a773-4321-9b19-178fd3562710@86e3.org
-URL:https://www.imdb.com/title/tt0093427/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260903
@@ -489,10 +543,16 @@ UID:efedd181-3542-406a-bce2-4c88e7be30ce@efed.org
 URL:https://www.imdb.com/title/tt32547691/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261030
-SUMMARY:🎥 Wicker
-UID:6fca3a49-6bb1-4280-950b-5bd97f8ca956@6fca.org
-URL:https://www.imdb.com/title/tt29611136/
+DTSTART;VALUE=DATE:20261009
+SUMMARY:🎥 The Social Reckoning
+UID:a002213e-74fe-427e-a56c-0f3fd70ced64@a002.org
+URL:https://www.imdb.com/title/tt37510326/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261111
+SUMMARY:🎥 Ghost Soldier
+UID:fd2d2e4f-4e7d-4395-9863-21636d6b374f@fd2d.org
+URL:https://www.imdb.com/title/tt38686316/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261009
@@ -501,10 +561,22 @@ UID:ead2e006-aa8a-48e8-9e9a-e2ea71fb98dd@ead2.org
 URL:https://www.imdb.com/title/tt32752251/
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261106
+SUMMARY:🎥 Raise the Red Lantern
+UID:0e84dcac-b57e-4bb2-9b9e-93efb8da564c@0e84.org
+URL:https://www.imdb.com/title/tt0101640/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261113
+SUMMARY:🎥 Search Party: Where's PawPaw?
+UID:19c74ed4-b4a0-4047-ab06-0ffc6e74b12a@19c7.org
+URL:https://www.imdb.com/title/tt29730964/
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261009
-SUMMARY:🎥 World Without Cows
-UID:4d95a5c5-440b-4029-b14b-90858881bda7@4d95.org
-URL:https://www.imdb.com/title/tt36363878/
+SUMMARY:🎥 André Leon Talley: Style Is Forever
+UID:d1c62ee5-9d6e-43a5-8d42-51502ec3ee74@d1c6.org
+URL:https://www.imdb.com/title/tt39216435/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260925
@@ -513,10 +585,10 @@ UID:2d6781f0-667b-4d20-b268-ab163dd67aa6@2d67.org
 URL:https://www.imdb.com/title/tt36980182/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261030
-SUMMARY:🎥 The Mongoose
-UID:9adff719-6efd-4850-9faa-124f314ce842@9adf.org
-URL:https://www.imdb.com/title/tt13611778/
+DTSTART;VALUE=DATE:20261016
+SUMMARY:🎥 You Can See Everything
+UID:392ece16-048c-49e2-b8f9-777079e55b03@392e.org
+URL:https://www.imdb.com/title/tt45368240/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261001
@@ -525,22 +597,10 @@ UID:b2183353-6bf6-4447-8866-89df45efeb03@b218.org
 URL:https://www.imdb.com/title/tt39482377/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261022
-SUMMARY:🎥 Clayface
-UID:934b8f20-bd02-4b13-b538-ab9825fae743@934b.org
-URL:https://www.imdb.com/title/tt34890576/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261009
-SUMMARY:🎥 Your Mother Your Mother Your Mother
-UID:fa8b4b99-c07c-4161-9298-b917861e48fc@fa8b.org
-URL:https://www.imdb.com/title/tt35856037/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260827
-SUMMARY:🎥 Ice Cream Man
-UID:efe5db89-ea68-401d-86eb-7164072024f5@efe5.org
-URL:https://www.imdb.com/title/tt36893729/
+DTSTART;VALUE=DATE:20261031
+SUMMARY:🎥 Holy Father
+UID:c110b20c-682c-475f-8285-9fa7f922e76b@c110.org
+URL:https://www.imdb.com/title/tt36465142/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261008
@@ -561,15 +621,39 @@ UID:b0596190-4fb8-41e3-b813-c5ef7544ef7c@b059.org
 URL:https://www.imdb.com/title/tt37185884/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261009
-SUMMARY:🎥 A Prayer for the Dying
-UID:4ac79869-af84-4ace-96a8-46ec91122a25@4ac7.org
-URL:https://www.imdb.com/title/tt31183803/
+DTSTART;VALUE=DATE:20261113
+SUMMARY:🎥 Victorian Psycho
+UID:3b3943ab-b9e2-4438-a0c3-6a73f2c6e234@3b39.org
+URL:https://www.imdb.com/title/tt34374553/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261009
-SUMMARY:🎥 Other Mommy
-UID:49717a1d-8e61-4328-b261-70fc6da013a8@4971.org
-URL:https://www.imdb.com/title/tt36586020/
+DTSTART;VALUE=DATE:20261113
+SUMMARY:🎥 Hurricanna
+UID:0c4461ac-7e4d-4115-921b-b3e093f8ca8c@0c44.org
+URL:https://www.imdb.com/title/tt18068772/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261016
+SUMMARY:🎥 Trust Me\, I'm a Doctor
+UID:1901a5a4-ab3c-40f4-8f3a-bf97032ba2a6@1901.org
+URL:https://www.imdb.com/title/tt31456607/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261105
+SUMMARY:🎥 Godzilla Minus Zero
+UID:d9493ea3-535b-46e9-9e75-542c74e144b2@d949.org
+URL:https://www.imdb.com/title/tt34384661/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261024
+SUMMARY:🎥 BTS World Tour 'Arirang' in Buenos Aires: Live Viewing
+UID:be06cba8-8cf7-4514-aae0-bdfe76d680dd@be06.org
+URL:https://www.imdb.com/title/tt45591705/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261002
+SUMMARY:🎥 The Last First: Winter K2
+UID:b50f7e42-4735-4f00-b9cb-b9516c1d1996@b50f.org
+URL:https://www.imdb.com/title/tt39150288/
 END:VEVENT
 END:VCALENDAR
