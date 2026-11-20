@@ -21,6 +21,8 @@ jobs:
 
       - name: Gerar arquivo calendar.ics
         run: python generate.py
+        env:
+          TMDB_TOKEN: ${{ secrets.TMDB_TOKEN }}
 
       - name: Configurar Git
         run: |

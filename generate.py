@@ -6,71 +6,61 @@ from datetime import date, timedelta
 from ics import Calendar, Event
 from ics.grammar.parse import ContentLine
 
-GRAPHQL_URL = "https://graphql.imdb.com/"
-HEADERS = {
-    "Content-Type": "application/json",
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-    "Referer": "https://www.imdb.com/",
-    "Origin": "https://www.imdb.com",
-    "Accept": "application/json",
-    "Accept-Language": "pt-BR,pt;q=0.9",
-}
+TMDB_API_URL = "https://api.themoviedb.org/3"
+TMDB_TOKEN = os.environ.get("TMDB_TOKEN", "")
 
 # Eventos que saíram da API são mantidos por até N dias após o lançamento
 KEEP_AFTER_RELEASE_DAYS = 30
 
-QUERY = """
-{
-  comingSoon(
-    comingSoonType: MOVIE,
-    first: 250,
-    releasingOnOrAfter: "%s"
-  ) {
-    edges {
-      node {
-        id
-        titleText { text }
-        releaseDate {
-          day
-          month
-          year
-        }
-        releaseDates(first: 100) {
-          edges {
-            node {
-              country { id }
-              day
-              month
-              year
-            }
-          }
-        }
-      }
-    }
-  }
-}
-"""
-
 
 def fetch_events():
-    # Busca a partir de hoje para pegar todos os próximos lançamentos
-    # Filmes já lançados são preservados pelo mecanismo de merge
-    start_date = date.today()
-    query = QUERY % start_date.strftime("%Y-%m-%d")
-
-    response = requests.post(GRAPHQL_URL, json={"query": query}, headers=HEADERS)
-    print("Status HTTP:", response.status_code)
-
-    if response.status_code != 200:
-        print("Falha ao acessar a API GraphQL.")
+    if not TMDB_TOKEN:
+        print("Erro: variável TMDB_TOKEN não definida.")
         return None
 
-    data = response.json()
-    if "errors" in data:
-        print("Erros na resposta GraphQL:", data["errors"])
-        return None
+    headers = {
+        "Authorization": f"Bearer {TMDB_TOKEN}",
+        "Accept": "application/json",
+    }
 
-    return data.get("data", {}).get("comingSoon", {}).get("edges", [])
+    today = date.today().isoformat()
+    # Buscar até 1 ano à frente
+    end_date = date.today().replace(year=date.today().year + 1).isoformat()
+
+    all_results = []
+    page = 1
+
+    while True:
+        resp = requests.get(
+            f"{TMDB_API_URL}/discover/movie",
+            headers=headers,
+            params={
+                "language": "pt-BR",
+                "region": "BR",
+                "release_date.gte": today,
+                "release_date.lte": end_date,
+                "sort_by": "release_date.asc",
+                "with_release_type": "3|2",   # theatrical (wide + limited)
+                "page": page,
+            },
+        )
+
+        print(f"Status HTTP (página {page}):", resp.status_code)
+
+        if resp.status_code != 200:
+            print("Falha ao acessar a API do TMDB:", resp.text[:200])
+            return None
+
+        data = resp.json()
+        results = data.get("results", [])
+        all_results.extend(results)
+
+        if page >= data.get("total_pages", 1) or page >= 10:
+            break
+        page += 1
+
+    print(f"Total de filmes obtidos do TMDB: {len(all_results)}")
+    return all_results
 
 
 def imdb_id_from_url(url):
@@ -81,8 +71,16 @@ def imdb_id_from_url(url):
     return match.group(1) if match else None
 
 
+def tmdb_id_from_url(url):
+    """Extrai o ID do TMDB da URL do evento."""
+    if not url:
+        return None
+    match = re.search(r"/tmdb/(\d+)/", url)
+    return match.group(1) if match else None
+
+
 def load_existing_events(filepath):
-    """Carrega eventos existentes do .ics, indexados pelo ID do IMDb."""
+    """Carrega eventos existentes do .ics, indexados pelo ID (TMDB ou IMDb)."""
     existing = {}
     if not os.path.exists(filepath):
         return existing
@@ -93,88 +91,64 @@ def load_existing_events(filepath):
     try:
         cal = Calendar(content)
         for event in cal.events:
-            imdb_id = imdb_id_from_url(event.url)
-            if imdb_id:
-                existing[imdb_id] = event
+            # Tentar extrair ID do TMDB primeiro, depois IMDb
+            event_id = tmdb_id_from_url(event.url) or imdb_id_from_url(event.url)
+            if event_id:
+                existing[event_id] = event
     except Exception as e:
         print(f"Aviso: não foi possível carregar eventos existentes: {e}")
 
     return existing
 
 
-def get_br_release_date(node):
-    """
-    Retorna a data de lançamento no Brasil.
-    Prefere releaseDates[BR], cai no releaseDate (EUA) se BR não estiver disponível.
-    """
-    for edge in node.get("releaseDates", {}).get("edges", []):
-        rd = edge["node"]
-        if rd.get("country", {}).get("id") == "BR":
-            if rd.get("year") and rd.get("month") and rd.get("day"):
-                return rd
-    return node.get("releaseDate")
-
-
-def build_event(title, title_id, release_date):
+def build_event(title, tmdb_id, release_date):
     event = Event()
     event.name = f"🎥 {title}"
     event.begin = release_date
     event.make_all_day()
-    event.url = f"https://www.imdb.com/title/{title_id}/"
+    event.url = f"https://www.themoviedb.org/movie/{tmdb_id}/"
     return event
 
 
-def merge_events(edges, existing_events):
-    """
-    Merge entre eventos da API e eventos existentes no .ics.
-
-    Regras:
-    - Eventos da API sempre entram (atualizados ou novos).
-    - Eventos existentes que sumiram da API são mantidos se a data de
-      lançamento ainda não passou há mais de KEEP_AFTER_RELEASE_DAYS dias.
-    """
+def merge_events(results, existing_events):
     today = date.today()
     cutoff = today - timedelta(days=KEEP_AFTER_RELEASE_DAYS)
 
-    # Processar eventos vindos da API
+    # Processar filmes vindos do TMDB
     api_events = {}
-    for edge in edges:
-        node = edge.get("node", {})
-        title = node.get("titleText", {}).get("text")
-        title_id = node.get("id")
+    for movie in results:
+        title = movie.get("title")
+        release_str = movie.get("release_date")
+        tmdb_id = str(movie.get("id"))
 
-        # Usar data BR se disponível, senão data EUA
-        release = get_br_release_date(node)
-
-        if not (title and release and release.get("year") and release.get("month") and release.get("day")):
+        if not (title and release_str and tmdb_id):
             continue
 
         try:
-            release_date = date(release["year"], release["month"], release["day"])
-            api_events[title_id] = build_event(title, title_id, release_date)
+            release_date = date.fromisoformat(release_str)
+            api_events[tmdb_id] = build_event(title, tmdb_id, release_date)
         except Exception as e:
             print(f"Erro ao processar '{title}':", e)
 
     # Eventos existentes que sumiram da API: manter se ainda dentro do prazo
     preserved = 0
     expired = 0
-    for imdb_id, event in existing_events.items():
-        if imdb_id in api_events:
-            continue  # já está nos novos, será sobrescrito
+    for event_id, event in existing_events.items():
+        if event_id in api_events:
+            continue
 
-        # Determinar a data do evento existente
         try:
             event_date = event.begin.date() if hasattr(event.begin, "date") else event.begin
         except Exception:
             continue
 
         if event_date >= cutoff:
-            api_events[imdb_id] = event
+            api_events[event_id] = event
             preserved += 1
         else:
             expired += 1
 
-    print(f"Eventos da API: {len(api_events) - preserved}")
+    print(f"Eventos do TMDB: {len(api_events) - preserved}")
     print(f"Eventos preservados (fora da API, dentro do prazo): {preserved}")
     print(f"Eventos expirados (removidos): {expired}")
 
@@ -187,12 +161,12 @@ def main():
     existing_events = load_existing_events(filepath)
     print(f"Eventos existentes carregados: {len(existing_events)}")
 
-    edges = fetch_events()
-    if edges is None:
+    results = fetch_events()
+    if results is None:
         print("Abortando: não foi possível buscar eventos da API.")
         sys.exit(1)
 
-    merged = merge_events(edges, existing_events)
+    merged = merge_events(results, existing_events)
 
     calendar = Calendar()
     calendar.extra.append(ContentLine(name="X-WR-CALNAME", value="Lançamentos filmes Brasil - Imdb"))
