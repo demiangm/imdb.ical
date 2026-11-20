@@ -21,22 +21,40 @@ UID:73a57410-236c-46c7-9f58-f644c08e0360@73a5.org
 URL:https://www.imdb.com/title/tt9219630/
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270121
+SUMMARY:🎥 Rolling Loud: Um Festival de Problemas
+UID:f3ddace4-34b8-466b-97d7-8b3f0bd0a162@f3dd.org
+URL:https://www.themoviedb.org/movie/1336166/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270218
+SUMMARY:🎥 Mulher Desconhecida
+UID:b5cf410e-e069-4652-9120-78c934c73bdb@b5cf.org
+URL:https://www.themoviedb.org/movie/1511780/
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261120
 SUMMARY:🎥 Minotaur
 UID:269c84ca-d796-499c-a37b-b358222a2f14@269c.org
 URL:https://www.imdb.com/title/tt37118301/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261010
-SUMMARY:🎥 Club Kid
-UID:b1edd87b-5df1-48ed-bdfe-8186ff3661ae@b1ed.org
-URL:https://www.imdb.com/title/tt38058097/
+DTSTART;VALUE=DATE:20270506
+SUMMARY:🎥 Everybody Wants to Fuck Me
+UID:7a2aa4f5-7893-4d78-a087-79299fb403dc@7a2a.org
+URL:https://www.themoviedb.org/movie/1559269/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261219
 SUMMARY:🎥 I Play Rocky
 UID:1ed04c37-c371-4b50-a121-f3c85d8b6dd9@1ed0.org
 URL:https://www.imdb.com/title/tt11995650/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270218
+SUMMARY:🎥 Ykamiabas
+UID:976b2d81-30e7-4097-9b28-c476d927ea14@976b.org
+URL:https://www.themoviedb.org/movie/1798438/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261106
@@ -63,10 +81,34 @@ UID:ab31baa2-8843-4fed-b670-ddabe26d1eec@ab31.org
 URL:https://www.imdb.com/title/tt29611136/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261016
-SUMMARY:🎥 You Can't Leave
-UID:d2e6438d-bc65-46ef-8bcc-af3840c2f65e@d2e6.org
-URL:https://www.imdb.com/title/tt42192423/
+DTSTART;VALUE=DATE:20261216
+SUMMARY:🎥 Vingadores: Doutor Destino
+UID:192a5f26-c6ad-44d4-9756-6d6fc313bf77@192a.org
+URL:https://www.themoviedb.org/movie/1003596/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270121
+SUMMARY:🎥 Artificial
+UID:2493478c-51da-4d9c-a912-493c6efad533@2493.org
+URL:https://www.themoviedb.org/movie/1492198/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261124
+SUMMARY:🎥 Tiro no Escuro
+UID:448765e5-96c9-4f24-bc9c-85f2867fd752@4487.org
+URL:https://www.themoviedb.org/movie/1763409/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270318
+SUMMARY:🎥 O Rouxinol
+UID:d70c7624-7d13-4337-9a23-c9bfeb83e410@d70c.org
+URL:https://www.themoviedb.org/movie/458896/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270107
+SUMMARY:🎥 Rainha ao Mar
+UID:c076acc7-d820-48d3-83f2-a6ae2d473749@c076.org
+URL:https://www.themoviedb.org/movie/1021848/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261225
@@ -81,10 +123,58 @@ UID:3e52c11c-8810-4e03-a155-7bcd53d17db8@3e52.org
 URL:https://www.imdb.com/title/tt34382912/
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270101
+SUMMARY:🎥 Homens mortos não contam histórias
+UID:ebcf2e6f-ad3e-4eed-bbae-c3ef59995ec6@ebcf.org
+URL:https://www.themoviedb.org/movie/1470173/
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261023
 SUMMARY:🎥 Fjord
 UID:d1d34ed0-dd6d-4eec-9a6d-fcd1ca3d45ce@d1d3.org
 URL:https://www.imdb.com/title/tt35410859/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20010622
+SUMMARY:🎥 Shrek
+UID:9a673a30-0dac-42e7-b0a6-ba3bd3c87638@9a67.org
+URL:https://www.themoviedb.org/movie/808/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261126
+SUMMARY:🎥 Pecadora
+UID:8ea19874-c516-4026-9bdc-9cf519766c23@8ea1.org
+URL:https://www.themoviedb.org/movie/1401334/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270121
+SUMMARY:🎥 Asterix: O Reino da Nubia
+UID:fa587f92-ab07-4fe8-8741-a8259c47eeae@fa58.org
+URL:https://www.themoviedb.org/movie/1084728/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270212
+SUMMARY:🎥 Memorias do Amanhã
+UID:64de3da3-a6fb-4420-87db-4d60e5ece868@64de.org
+URL:https://www.themoviedb.org/movie/1770147/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261120
+SUMMARY:🎥 Minotauro
+UID:c957ee99-a2a0-4b90-9565-d3ff79cfd887@c957.org
+URL:https://www.themoviedb.org/movie/848700/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261203
+SUMMARY:🎥 Mire! O Rei do Beisebol Pirata
+UID:837fdd8d-f559-4beb-a048-499a4b04c39b@837f.org
+URL:https://www.themoviedb.org/movie/464305/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270630
+SUMMARY:🎥 Shrek 5
+UID:79681792-d3ab-4266-a29f-cefa93cf0a1b@7968.org
+URL:https://www.themoviedb.org/movie/421892/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261106
@@ -99,10 +189,28 @@ UID:4ecb0c5a-316f-4e6b-ae23-a9d7ffe854fb@4ecb.org
 URL:https://www.imdb.com/title/tt31179962/
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270210
+SUMMARY:🎥 O Som da Sua Voz
+UID:a9ea7c5c-a050-4d39-9ca4-ea43367a3990@a9ea.org
+URL:https://www.themoviedb.org/movie/1689644/
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261113
 SUMMARY:🎥 Mouse
 UID:f7176c2d-a03f-4438-a3a3-0a264e4c2dc6@f717.org
 URL:https://www.imdb.com/title/tt13652154/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261129
+SUMMARY:🎥 NMIXX 1st World Tour Live Viewing
+UID:9c3d783d-3f92-4e61-a641-1d3685f9f303@9c3d.org
+URL:https://www.themoviedb.org/movie/1824086/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270429
+SUMMARY:🎥 The Shepherd
+UID:e2de7464-ea11-4e09-9950-8e84b500a712@e2de.org
+URL:https://www.themoviedb.org/movie/1477203/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261113
@@ -111,10 +219,28 @@ UID:9a9dd83f-f69d-4263-8cf4-0a553220c47d@9a9d.org
 URL:https://www.imdb.com/title/tt18068772/
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261231
+SUMMARY:🎥 3xHelô
+UID:01950c32-9c9f-4221-9823-618374077819@0195.org
+URL:https://www.themoviedb.org/movie/1443069/
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261022
 SUMMARY:🎥 One Piece: Clockwork Island Adventure
 UID:c3791371-5605-4fe0-9055-c8edcd5a7b17@c379.org
 URL:https://www.imdb.com/title/tt0832449/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261126
+SUMMARY:🎥 Alucinação
+UID:3d357744-983b-49c4-a263-ce53b175b281@3d35.org
+URL:https://www.themoviedb.org/movie/1757371/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261215
+SUMMARY:🎥 Duna: Parte Três
+UID:a7b0da1f-1ff6-4c9b-8efc-59c4e3975d84@a7b0.org
+URL:https://www.themoviedb.org/movie/1170608/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261113
@@ -129,16 +255,16 @@ UID:20fd4357-1e07-4c4b-9a50-91c9b53592ae@20fd.org
 URL:https://www.imdb.com/title/tt42588704/
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270101
+SUMMARY:🎥 Angry Birds 3: O Filme
+UID:1475aea1-b622-468c-82bc-c8a1f88ed229@1475.org
+URL:https://www.themoviedb.org/movie/1300926/
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261022
 SUMMARY:🎥 A Girl Named Willow
 UID:31f685dd-5edc-4cb8-a946-1388936fae2b@31f6.org
 URL:https://www.imdb.com/title/tt35300281/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261016
-SUMMARY:🎥 Tazza: The Song of Beelzebub
-UID:5a270be4-42c9-44fb-a7c9-3786e457ba1d@5a27.org
-URL:https://www.imdb.com/title/tt39233100/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261023
@@ -147,16 +273,28 @@ UID:0a153c90-47de-4b7f-9379-ec811d43f981@0a15.org
 URL:https://www.imdb.com/title/tt30294376/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261204
-SUMMARY:🎥 Flavia de Luce: Girl Detective
-UID:1e54faad-cbea-41d6-be21-e6668a527702@1e54.org
-URL:https://www.imdb.com/title/tt11662534/
+DTSTART;VALUE=DATE:20270610
+SUMMARY:🎥 Possession
+UID:b4b0e646-1a71-44e3-9ee1-3ca967cca5b0@b4b0.org
+URL:https://www.themoviedb.org/movie/1303855/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261126
-SUMMARY:🎥 Focker-in-Law
-UID:840069ff-8cc3-4016-a836-c0a9caf3ceef@8400.org
-URL:https://www.imdb.com/title/tt34966140/
+DTSTART;VALUE=DATE:20270225
+SUMMARY:🎥 Tangles
+UID:bac9d369-7118-4d9e-b624-05e08447e5c7@bac9.org
+URL:https://www.themoviedb.org/movie/1316999/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20150129
+SUMMARY:🎥 Cássia Eller
+UID:927f1f6f-2c10-44de-bfe4-0141902a48dc@927f.org
+URL:https://www.themoviedb.org/movie/310534/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240229
+SUMMARY:🎥 Duna: Parte Dois
+UID:13277af5-1c99-49b4-94d6-87e803f139dc@1327.org
+URL:https://www.themoviedb.org/movie/693134/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261029
@@ -165,16 +303,82 @@ UID:9e171dfd-2b65-4081-b8ea-a8ce87183562@9e17.org
 URL:https://www.imdb.com/title/tt39565792/
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261126
+SUMMARY:🎥 Focker-in-Law
+UID:840069ff-8cc3-4016-a836-c0a9caf3ceef@8400.org
+URL:https://www.imdb.com/title/tt34966140/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261203
+SUMMARY:🎥 Uma em Mil
+UID:6bfc81ce-9e20-4e85-9bf9-98d4a80b2fdf@6bfc.org
+URL:https://www.themoviedb.org/movie/1530944/
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261106
 SUMMARY:🎥 Paradise Lost
 UID:7dfe5a6b-7d41-490b-a95e-6fe72d329d08@7dfe.org
 URL:https://www.imdb.com/title/tt43658893/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261006
-SUMMARY:🎥 The Debut
-UID:1dff1edb-5efd-481f-a12e-9d2ae0f98654@1dff.org
-URL:https://www.imdb.com/title/tt34718200/
+DTSTART;VALUE=DATE:20270114
+SUMMARY:🎥 River
+UID:124aa39e-ebff-4caa-afab-a7362c291b43@124a.org
+URL:https://www.themoviedb.org/movie/1520592/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261209
+SUMMARY:🎥 Todos Os Meus Amigos Estão Vivendo Um Amor Adolescente
+UID:8397b4ee-f946-4880-a5b2-a362ef25103a@8397.org
+URL:https://www.themoviedb.org/movie/1739622/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261203
+SUMMARY:🎥 Guardiões do Reino
+UID:a33872e6-1b62-491f-a594-7e48ba7b7c2d@a338.org
+URL:https://www.themoviedb.org/movie/1280405/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270128
+SUMMARY:🎥 Witch on the Holy Night: O Filme
+UID:ba1a3dfe-2f9e-4f22-9d55-d2b891b40481@ba1a.org
+URL:https://www.themoviedb.org/movie/920167/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261204
+SUMMARY:🎥 Flavia de Luce: Girl Detective
+UID:1e54faad-cbea-41d6-be21-e6668a527702@1e54.org
+URL:https://www.imdb.com/title/tt11662534/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270218
+SUMMARY:🎥 Dark Horse
+UID:62ab1001-0bcf-408d-83e0-39f13670b5fd@62ab.org
+URL:https://www.themoviedb.org/movie/1523553/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270318
+SUMMARY:🎥 Deixar a Vida Me Levar
+UID:07718b4e-f55a-4978-882f-b29d90916145@0771.org
+URL:https://www.themoviedb.org/movie/1688072/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270408
+SUMMARY:🎥 Girl in the Clouds
+UID:57106639-eef4-4a05-8543-970f38d0bd92@5710.org
+URL:https://www.themoviedb.org/movie/1151265/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261126
+SUMMARY:🎥 O Ser Querido
+UID:db369a9c-ea6f-458e-ae6d-1d30db97a54b@db36.org
+URL:https://www.themoviedb.org/movie/1074074/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270128
+SUMMARY:🎥 Tom Jobim: Este Seu Olhar
+UID:537443bc-5467-47b0-b517-ebb697b0c57b@5374.org
+URL:https://www.themoviedb.org/movie/1747198/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261022
@@ -183,16 +387,52 @@ UID:ec623ca4-35b7-4cac-833d-c15e97b77dbe@ec62.org
 URL:https://www.imdb.com/title/tt29291392/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261016
-SUMMARY:🎥 Crawlers
-UID:fcb68a18-3dfd-4fdb-83f0-fbb749739bd6@fcb6.org
-URL:https://www.imdb.com/title/tt32329539/
+DTSTART;VALUE=DATE:20261126
+SUMMARY:🎥 Yellow Cake
+UID:9a1c2a88-926d-47a6-ac04-3fa7ec6ad4cf@9a1c.org
+URL:https://www.themoviedb.org/movie/1493089/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261126
+SUMMARY:🎥 Lilo & Scratch
+UID:7a82a2f8-e7eb-465d-b42c-04a97d5ee205@7a82.org
+URL:https://www.themoviedb.org/movie/1720486/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270513
+SUMMARY:🎥 O Legado de Mr. Catra
+UID:d9d27737-a9b0-487e-8ef9-d62d081129aa@d9d2.org
+URL:https://www.themoviedb.org/movie/1814321/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261204
 SUMMARY:🎥 The Friend's House Is Here
 UID:b1053c5e-9fc2-4511-aaab-0f56101eb776@b105.org
 URL:https://www.imdb.com/title/tt38980819/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270304
+SUMMARY:🎥 Thomas Crown - A Arte do Crime
+UID:bc46b43d-2703-4020-bbdc-e253efb843e0@bc46.org
+URL:https://www.themoviedb.org/movie/615121/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261231
+SUMMARY:🎥 Chicas Tristes
+UID:585f7898-a76f-4f86-956d-538393789ce9@585f.org
+URL:https://www.themoviedb.org/movie/1536433/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270415
+SUMMARY:🎥 Monitor
+UID:22c1a730-e830-4287-b521-9c578939a209@22c1.org
+URL:https://www.themoviedb.org/movie/1381087/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270318
+SUMMARY:🎥 Sonic 4: O Filme
+UID:f5f15405-dea5-43a3-a42a-3ce3e14281a1@f5f1.org
+URL:https://www.themoviedb.org/movie/1401586/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261120
@@ -213,6 +453,72 @@ UID:dcfdbc2c-7a96-4466-ac5b-00bc44a374f9@dcfd.org
 URL:https://www.imdb.com/title/tt27541205/
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270401
+SUMMARY:🎥 Ari
+UID:8df0aa97-571b-4f65-b7e2-3202156ab9a4@8df0.org
+URL:https://www.themoviedb.org/movie/1256192/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270306
+SUMMARY:🎥 Interferência
+UID:185dd6ed-b346-427f-bd94-2b88921185a2@185d.org
+URL:https://www.themoviedb.org/movie/1821864/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261126
+SUMMARY:🎥 Apenas 3 Meninas
+UID:c4c4d88c-6b40-415f-b4e0-307c58b22a10@c4c4.org
+URL:https://www.themoviedb.org/movie/1452644/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261126
+SUMMARY:🎥 Enfeitiçadas: Bem-vindos a Hexe
+UID:6f3f776b-6c47-452b-bf06-d96f8d1d60ff@6f3f.org
+URL:https://www.themoviedb.org/movie/1538497/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270204
+SUMMARY:🎥 A Vida Por Um Sonho
+UID:336ec735-55af-4989-b747-038b3780bddd@336e.org
+URL:https://www.themoviedb.org/movie/1372443/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270325
+SUMMARY:🎥 Sede de Sangue
+UID:133f67fd-1d63-47f9-adc0-8d8dc82c87b9@133f.org
+URL:https://www.themoviedb.org/movie/1266643/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270304
+SUMMARY:🎥 Se Não Eu\, Quem Vai Fazer Você Feliz?
+UID:6c9a912f-eaf9-42e8-868f-7e97e1609982@6c9a.org
+URL:https://www.themoviedb.org/movie/1493762/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261212
+SUMMARY:🎥 O Rio É o Mesmo
+UID:7789a252-3d98-414c-b17a-113d83654a87@7789.org
+URL:https://www.themoviedb.org/movie/1802656/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270116
+SUMMARY:🎥 Eu\, a Kombi e a Garotinha que Encontrei no Meio do Caminho
+UID:26e544d8-85f0-4160-8b1c-2498cedfa833@26e5.org
+URL:https://www.themoviedb.org/movie/1684188/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261104
+SUMMARY:🎥 O Sentido da Vida
+UID:ddc2d038-5cc8-4e9d-807c-8bdf0306f126@ddc2.org
+URL:https://www.themoviedb.org/movie/1476614/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270107
+SUMMARY:🎥 Jumanji: Mundo Real
+UID:21f7c267-2992-432e-a40f-e20116e5b332@21f7.org
+URL:https://www.themoviedb.org/movie/1260649/
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261030
 SUMMARY:🎥 The Mongoose
 UID:ec4aa0b7-dcef-47a7-a970-6c701e013345@ec4a.org
@@ -226,15 +532,33 @@ URL:https://www.imdb.com/title/tt32557122/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261204
+SUMMARY:🎥 Tender Loving Care
+UID:fe86d1ff-eae5-40d9-b38d-03e371b42926@fe86.org
+URL:https://www.imdb.com/title/tt35638092/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261217
+SUMMARY:🎥 Covarde
+UID:f1a6490d-0981-4516-8bf4-13ef19f0b772@f1a6.org
+URL:https://www.themoviedb.org/movie/1437981/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270225
+SUMMARY:🎥 CoComelon: O Filme
+UID:6692018f-9a33-4431-849f-c4776ccf3940@6692.org
+URL:https://www.themoviedb.org/movie/1480503/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261204
 SUMMARY:🎥 Violent Night 2
 UID:d936b2ff-7e9c-4eb7-afae-4f1a621abfba@d936.org
 URL:https://www.imdb.com/title/tt32432428/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261204
-SUMMARY:🎥 Tender Loving Care
-UID:fe86d1ff-eae5-40d9-b38d-03e371b42926@fe86.org
-URL:https://www.imdb.com/title/tt35638092/
+DTSTART;VALUE=DATE:20261210
+SUMMARY:🎥 Paraíso Prometido
+UID:1f27ceb9-ef18-4084-bb34-b4a52247e752@1f27.org
+URL:https://www.themoviedb.org/movie/1218412/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261030
@@ -243,16 +567,70 @@ UID:ea98b2c9-187a-4e59-9bc7-ac83b1e831bc@ea98.org
 URL:https://www.imdb.com/title/tt47647390/
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261211
+SUMMARY:🎥 Se a Maré te Trouxe\, Fica
+UID:c78e380c-d0d9-42a1-b457-66e6ee5dd4d9@c78e.org
+URL:https://www.themoviedb.org/movie/1506980/
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261023
 SUMMARY:🎥 Kung Fu Soccer
 UID:b9306f39-b1ee-4026-87c3-cbdb64a607f2@b930.org
 URL:https://www.imdb.com/title/tt36103784/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261016
-SUMMARY:🎥 Musk
-UID:4a649528-92fd-4fe1-848f-8e3b15a46dd2@4a64.org
-URL:https://www.imdb.com/title/tt27041231/
+DTSTART;VALUE=DATE:20261215
+SUMMARY:🎥 SLEEPLESS
+UID:fa440009-0757-434e-8160-07e171857b28@fa44.org
+URL:https://www.themoviedb.org/movie/1795580/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261203
+SUMMARY:🎥 One Piece: Rei do Futebol dos Sonhos
+UID:7971df7a-b9fd-434d-a23d-2ec991e5684d@7971.org
+URL:https://www.themoviedb.org/movie/464198/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261126
+SUMMARY:🎥 Tudo Pode Ser Visto
+UID:82beab3c-1a3f-4f25-8239-836458677a83@82be.org
+URL:https://www.themoviedb.org/movie/1765072/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20211021
+SUMMARY:🎥 Duna
+UID:7db51246-651b-4951-9526-4394f67c53a4@7db5.org
+URL:https://www.themoviedb.org/movie/438631/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270204
+SUMMARY:🎥 Fjord
+UID:3ccb66a2-45e5-49e5-9574-f3ab818fb9c9@3ccb.org
+URL:https://www.themoviedb.org/movie/1401459/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270114
+SUMMARY:🎥 Beekeeper 2: Sem Perdão
+UID:04c7f57a-d17b-4d41-9c08-9db32bc0a397@04c7.org
+URL:https://www.themoviedb.org/movie/1440769/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270218
+SUMMARY:🎥 O Último Rastro
+UID:4676fc95-c129-47e4-af5a-491e67f43599@4676.org
+URL:https://www.themoviedb.org/movie/1425472/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270128
+SUMMARY:🎥 O Senhor das Armas 2
+UID:612c5699-d3f2-4f41-899d-d8937578b0a0@612c.org
+URL:https://www.themoviedb.org/movie/1124006/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270204
+SUMMARY:🎥 Vestígios
+UID:aaa4ab59-f074-48e0-9ad2-91fd0f9669ca@aaa4.org
+URL:https://www.themoviedb.org/movie/1425859/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261125
@@ -267,10 +645,28 @@ UID:f62c8253-33c9-47d3-82e4-953167e7d5d8@f62c.org
 URL:https://www.imdb.com/title/tt37660509/
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261215
+SUMMARY:🎥 Suspect: The Road Rage Killer
+UID:2bd2c0c4-fc0e-4952-ba88-9639e7c0dcfd@2bd2.org
+URL:https://www.themoviedb.org/movie/1770999/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270121
+SUMMARY:🎥 Animal Friends
+UID:40b38270-205a-426e-ad2e-06692b167499@40b3.org
+URL:https://www.themoviedb.org/movie/1115030/
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261028
 SUMMARY:🎥 Closure
 UID:9d8d2839-b643-4fc6-a9b2-471d485d2c63@9d8d.org
 URL:https://www.imdb.com/title/tt39075417/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270128
+SUMMARY:🎥 A Era do Gelo: Mundo de Lava
+UID:92bb7979-ab07-42d9-bc24-75da140f2f63@92bb.org
+URL:https://www.themoviedb.org/movie/1384758/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261030
@@ -279,10 +675,70 @@ UID:f1e89110-2b1a-46d3-8847-3e25c1fa183a@f1e8.org
 URL:https://www.imdb.com/title/tt43699387/
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270225
+SUMMARY:🎥 9 Templos para o Céu
+UID:86ee5765-52fd-4dc6-807a-1affdaf9df93@86ee.org
+URL:https://www.themoviedb.org/movie/1046304/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270304
+SUMMARY:🎥 Gatto
+UID:9c38d7d4-4e83-4695-aa88-98c20902481b@9c38.org
+URL:https://www.themoviedb.org/movie/1497464/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270121
+SUMMARY:🎥 Torniquete
+UID:334c8d7c-32c2-4be7-91ad-746866d46467@334c.org
+URL:https://www.themoviedb.org/movie/1477152/
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261125
 SUMMARY:🎥 Hershey
 UID:47540e54-927d-4868-8390-e3e1dea8cdb6@4754.org
 URL:https://www.imdb.com/title/tt17055444/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270408
+SUMMARY:🎥 Funk
+UID:562d5dad-4e9d-484c-9c36-e531b632742a@562d.org
+URL:https://www.themoviedb.org/movie/1289485/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270107
+SUMMARY:🎥 A Margem do Rio
+UID:93d1a677-50aa-4867-b17e-42eb84c1103b@93d1.org
+URL:https://www.themoviedb.org/movie/1405205/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270225
+SUMMARY:🎥 Bunker
+UID:675f9f21-6842-43ac-907f-c9ba7d3e6792@675f.org
+URL:https://www.themoviedb.org/movie/1473784/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270225
+SUMMARY:🎥 The Revenge of La Llorona
+UID:8844661e-ac7f-493a-a3fd-0fba5b9f4b31@8844.org
+URL:https://www.themoviedb.org/movie/1533611/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270708
+SUMMARY:🎥 Emmanuel
+UID:f4b848de-5643-4a63-b6fb-2a6007c77615@f4b8.org
+URL:https://www.themoviedb.org/movie/1563310/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270527
+SUMMARY:🎥 Twisted
+UID:dcbf86dd-25c2-40e0-8578-88925651747d@dcbf.org
+URL:https://www.themoviedb.org/movie/1218062/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261107
+SUMMARY:🎥 Stray Kids World Tour 'Run It' Live Viewing
+UID:e1062189-4609-4658-b0ce-2dd9ba856ba7@e106.org
+URL:https://www.imdb.com/title/tt48391060/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261218
@@ -291,10 +747,22 @@ UID:c701aa67-9d5f-43fe-807b-52179750905b@c701.org
 URL:https://www.imdb.com/title/tt39382862/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261107
-SUMMARY:🎥 Stray Kids World Tour 'Run It' Live Viewing
-UID:e1062189-4609-4658-b0ce-2dd9ba856ba7@e106.org
-URL:https://www.imdb.com/title/tt48391060/
+DTSTART;VALUE=DATE:20261203
+SUMMARY:🎥 Viver é Melhor Que Sonhar
+UID:0e6dbfbe-e732-4bf6-bd7f-85704acbecff@0e6d.org
+URL:https://www.themoviedb.org/movie/1747184/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261203
+SUMMARY:🎥 Búfalo Kids
+UID:03930e69-b08c-42e4-8c70-c95cafc2f33c@0393.org
+URL:https://www.themoviedb.org/movie/1154304/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261121
+SUMMARY:🎥 Alain Delon da Bahia
+UID:9eaad7b1-7591-40ac-8c0b-4ad78bca860f@9eaa.org
+URL:https://www.themoviedb.org/movie/1824297/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261106
@@ -307,6 +775,24 @@ DTSTART;VALUE=DATE:20261113
 SUMMARY:🎥 Itllu Arjuna
 UID:49f1da9b-bbf6-4fa0-b15e-44c05977109a@49f1.org
 URL:https://www.imdb.com/title/tt39131708/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270506
+SUMMARY:🎥 A Lenda de Zelda
+UID:fbf3524c-6d88-4f49-8b70-166dcdd828e1@fbf3.org
+URL:https://www.themoviedb.org/movie/1177369/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261210
+SUMMARY:🎥 Talismã
+UID:fa17f2c4-3b57-4664-8eb1-7e85d81e4d15@fa17.org
+URL:https://www.themoviedb.org/movie/1472651/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261203
+SUMMARY:🎥 Verão da Lata
+UID:bec7c300-e776-4c43-893e-ce3de1c9171f@bec7.org
+URL:https://www.themoviedb.org/movie/1587351/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261203
@@ -327,10 +813,22 @@ UID:3f3b8d03-02ed-480a-83a1-a694c7b6e155@3f3b.org
 URL:https://www.imdb.com/title/tt18163224/
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270225
+SUMMARY:🎥 Bruna Surfistinha 2
+UID:de99178d-b145-4b67-ab7a-80d6b0ea5e13@de99.org
+URL:https://www.themoviedb.org/movie/1323717/
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261113
 SUMMARY:🎥 God with Us
 UID:948f85f9-7002-427b-9e82-c7a97615db43@948f.org
 URL:https://www.imdb.com/title/tt38060517/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270520
+SUMMARY:🎥 Guido
+UID:3fba1e91-5e15-4ecb-b36b-ddb464537093@3fba.org
+URL:https://www.themoviedb.org/movie/1617050/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261106
@@ -339,16 +837,40 @@ UID:2536b64c-2cb4-499b-9da0-403f19783de6@2536.org
 URL:https://www.imdb.com/title/tt28553375/
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261210
+SUMMARY:🎥 Ary
+UID:c3c72fb6-8f9b-4cad-ae9f-1d1815e9c854@c3c7.org
+URL:https://www.themoviedb.org/movie/1542796/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270520
+SUMMARY:🎥 Bad Fairies
+UID:e97406bf-4769-489d-9d78-72601c2a6019@e974.org
+URL:https://www.themoviedb.org/movie/1138528/
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261112
 SUMMARY:🎥 Ebenezer
 UID:a19c35a4-c32f-4115-bc9f-8b7fbaf2d69b@a19c.org
 URL:https://www.imdb.com/title/tt38773219/
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261224
+SUMMARY:🎥 Oceânico
+UID:d7afabfa-847e-4e73-a656-e47a47d5e78c@d7af.org
+URL:https://www.themoviedb.org/movie/1216052/
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261218
 SUMMARY:🎥 Dune: Part Three
 UID:145546e9-0899-4592-8db3-05a695477e5d@1455.org
 URL:https://www.imdb.com/title/tt31378509/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270422
+SUMMARY:🎥 O Último Dia
+UID:95abfa02-4f2d-42b3-8359-034506f88348@95ab.org
+URL:https://www.themoviedb.org/movie/1360385/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261031
@@ -363,10 +885,40 @@ UID:1ee3dbe3-7379-46d3-8259-214dcfec13cc@1ee3.org
 URL:https://www.imdb.com/title/tt28639152/
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270325
+SUMMARY:🎥 Godzilla x Kong: Supernova
+UID:654556e4-a57c-4768-8c01-a2edd028eaa8@6545.org
+URL:https://www.themoviedb.org/movie/1288438/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270121
+SUMMARY:🎥 Nosso Lar 3: Vida Eterna
+UID:29b9dcce-a2c8-4d4c-b8f1-769aff393f25@29b9.org
+URL:https://www.themoviedb.org/movie/1508855/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270325
+SUMMARY:🎥 Interligados
+UID:fa268ad6-07b5-4b48-ba2d-d72bf3c55771@fa26.org
+URL:https://www.themoviedb.org/movie/1718699/
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261022
 SUMMARY:🎥 The Proud Princess
 UID:5f0134c4-3ff2-4d33-8545-4b82808f6e6d@5f01.org
 URL:https://www.imdb.com/title/tt10996076/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261203
+SUMMARY:🎥 Behemoth! Uma Vida Composta em Peças
+UID:63a9f2db-993f-4ede-aabe-1491e271b6bf@63a9.org
+URL:https://www.themoviedb.org/movie/1452168/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270304
+SUMMARY:🎥 Missão 171
+UID:fe2a8a30-3d41-4565-8240-6f3a670aa6b6@fe2a.org
+URL:https://www.themoviedb.org/movie/1557131/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261225
@@ -375,10 +927,88 @@ UID:88ff5d1f-41d0-4b8a-acd4-45efaf693cf2@88ff.org
 URL:https://www.imdb.com/title/tt39822622/
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270107
+SUMMARY:🎥 Tigre de Papel
+UID:30969bd3-5d59-4a5c-98f2-78253308b117@3096.org
+URL:https://www.themoviedb.org/movie/1381273/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261126
+SUMMARY:🎥 Leviticus: Ritual de Sangue
+UID:7c9ae302-9e5d-4c79-89c9-2188460634a1@7c9a.org
+URL:https://www.themoviedb.org/movie/1564614/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261126
+SUMMARY:🎥 Kopenawa: Sonhar a Terra-Floresta
+UID:d27a5a1b-eb62-465c-9f18-0511a21effab@d27a.org
+URL:https://www.themoviedb.org/movie/1359504/
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261024
 SUMMARY:🎥 BTS World Tour 'Arirang' in Buenos Aires: Live Viewing
 UID:6701d332-7280-4398-a565-a3bbbfdd49d8@6701.org
 URL:https://www.imdb.com/title/tt45591705/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261126
+SUMMARY:🎥 The Money Maker - O Falsificador
+UID:5ce4e11f-ad4b-417a-90b2-504247283c77@5ce4.org
+URL:https://www.themoviedb.org/movie/1376415/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270114
+SUMMARY:🎥 Como Nasce um Assassino
+UID:ede95310-670a-41f9-825b-31b0c758a56a@ede9.org
+URL:https://www.themoviedb.org/movie/1084409/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261126
+SUMMARY:🎥 Retratos da Várzea
+UID:20eb3d47-74ac-4af4-8cd5-18ad97930ea2@20eb.org
+URL:https://www.themoviedb.org/movie/1748668/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261231
+SUMMARY:🎥 Tadaima
+UID:6649d6f9-bceb-43a6-8641-d38278153857@6649.org
+URL:https://www.themoviedb.org/movie/1591027/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270204
+SUMMARY:🎥 Karōshi: Código de Honra
+UID:b87723d0-e07b-4049-8ec2-6d10798826ff@b877.org
+URL:https://www.themoviedb.org/movie/1340208/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270408
+SUMMARY:🎥 Marta
+UID:b7425b7a-5862-48e9-a548-cd8a998a568e@b742.org
+URL:https://www.themoviedb.org/movie/1624964/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261120
+SUMMARY:🎥 American Trilogy
+UID:ae5c72d0-b698-447a-9fab-2a76d45bcb86@ae5c.org
+URL:https://www.themoviedb.org/movie/1814530/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270204
+SUMMARY:🎥 Na Terra de Arto
+UID:bf29f5b0-5c33-4820-b800-207b704685a9@bf29.org
+URL:https://www.themoviedb.org/movie/1308910/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270708
+SUMMARY:🎥 O Homem do Amanhã
+UID:e7e5337e-1b1c-4719-a8ed-53937a029e3d@e7e5.org
+URL:https://www.themoviedb.org/movie/1523140/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270204
+SUMMARY:🎥 What Happened to Doris?
+UID:72172543-bac5-47a2-b24a-17ef26ed3a6a@7217.org
+URL:https://www.themoviedb.org/movie/1433027/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261113
@@ -393,16 +1023,16 @@ UID:b8ecbf9f-a947-43da-bf35-c923fc896ff4@b8ec.org
 URL:https://www.imdb.com/title/tt15095848/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261016
-SUMMARY:🎥 Prahaar: The Untold Story of Ujjwal Nikam
-UID:3a0e3bdb-b8a5-42a2-8756-e73e7099295e@3a0e.org
-URL:https://www.imdb.com/title/tt28773062/
+DTSTART;VALUE=DATE:20270408
+SUMMARY:🎥 Estranho Amor
+UID:0fe78920-a501-49ec-83d5-bf0253dc49cb@0fe7.org
+URL:https://www.themoviedb.org/movie/1361883/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261014
-SUMMARY:🎥 Paper Tiger
-UID:34113219-4dd4-4ac6-a4e2-a70a89aae767@3411.org
-URL:https://www.imdb.com/title/tt34385689/
+DTSTART;VALUE=DATE:20270506
+SUMMARY:🎥 Leitura de Verão
+UID:b1cfd4a7-780e-4a93-b6b7-3b07402f6929@b1cf.org
+URL:https://www.themoviedb.org/movie/1109469/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261105
@@ -417,10 +1047,22 @@ UID:01906fe9-1ba1-4aac-931f-c84e6d1a0f7d@0190.org
 URL:https://www.imdb.com/title/tt38077943/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261016
-SUMMARY:🎥 Flywheel: Ignition of the Soul
-UID:326205d6-d21c-46da-b1b1-b0c4e3d1cd57@3262.org
-URL:https://www.imdb.com/title/tt42004484/
+DTSTART;VALUE=DATE:20261210
+SUMMARY:🎥 Para Vigo Me Voy!
+UID:c320ebd0-ac10-4b26-80bd-021e1f0676be@c320.org
+URL:https://www.themoviedb.org/movie/1477082/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270415
+SUMMARY:🎥 Por um Fio
+UID:b51d4298-c872-4cf5-ac8b-1abf4b87548e@b51d.org
+URL:https://www.themoviedb.org/movie/1255497/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270114
+SUMMARY:🎥 Elsinore
+UID:71def2d3-6368-4358-8d75-6eb4f957dd42@71de.org
+URL:https://www.themoviedb.org/movie/1599230/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261028
@@ -429,10 +1071,82 @@ UID:b36e62e7-64e1-4d83-804d-b73b3be31a19@b36e.org
 URL:https://www.imdb.com/title/tt9213874/
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261209
+SUMMARY:🎥 Doc Cineclube da Boca
+UID:bbb2b043-296b-4111-98cd-113458d27c71@bbb2.org
+URL:https://www.themoviedb.org/movie/1691779/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270304
+SUMMARY:🎥 Picaretas Não Vão Pro Céu
+UID:adc5a453-c205-41d3-bf98-7280cc2be06a@adc5.org
+URL:https://www.themoviedb.org/movie/1392164/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261217
+SUMMARY:🎥 8 Segundos: O Desafio
+UID:c95c5f26-c524-4c76-bc07-bdea9384957e@c95c.org
+URL:https://www.themoviedb.org/movie/1420851/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261126
+SUMMARY:🎥 Andrew Lloyd Webber’s Starlight Express - Live on Stage
+UID:12a22123-5431-4840-959f-972166aba0d4@12a2.org
+URL:https://www.themoviedb.org/movie/1748001/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270121
+SUMMARY:🎥 Um Homem Perdido
+UID:b4fcaef7-2066-4345-ba01-c5d13efed11e@b4fc.org
+URL:https://www.themoviedb.org/movie/1530193/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261210
+SUMMARY:🎥 One Piece: Aventura na Ilha Espiral
+UID:3a4a7596-d297-46e6-8399-f50f596a1dd2@3a4a.org
+URL:https://www.themoviedb.org/movie/23446/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270401
+SUMMARY:🎥 A Farsa do Sertão
+UID:1e465476-567b-4afc-adf2-af9ff6090635@1e46.org
+URL:https://www.themoviedb.org/movie/1617101/
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261022
 SUMMARY:🎥 Dogs at the Opera
 UID:4693981d-477e-46f5-a8f3-ece619cc3c52@4693.org
 URL:https://www.imdb.com/title/tt26448350/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261203
+SUMMARY:🎥 Fiz um Foguete Imaginando Que Você Vinha
+UID:b1ab3f82-c072-4032-b789-8dbe2444199e@b1ab.org
+URL:https://www.themoviedb.org/movie/1616523/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261224
+SUMMARY:🎥 Cinco Júlias
+UID:b3d573ca-5c76-4dc6-8f5e-938531acccf1@b3d5.org
+URL:https://www.themoviedb.org/movie/1324893/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270218
+SUMMARY:🎥 The Comeback King
+UID:177f5c8e-b8b5-42c2-8eee-7b49c1d2d142@177f.org
+URL:https://www.themoviedb.org/movie/1466228/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261111
+SUMMARY:🎥 Ghost Soldier
+UID:0de5cd2d-bbde-4c4b-b853-866a6bcc9e8d@0de5.org
+URL:https://www.imdb.com/title/tt38686316/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261203
+SUMMARY:🎥 Noite Ainda Mais Infeliz
+UID:c301cc82-42c7-4fc5-8aab-97cf1d1746c2@c301.org
+URL:https://www.themoviedb.org/movie/1078446/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261030
@@ -441,10 +1155,34 @@ UID:4bf4354a-ff11-40b9-8fd1-a88cecbc6e40@4bf4.org
 URL:https://www.imdb.com/title/tt45591708/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261016
-SUMMARY:🎥 The Trial of Alec Baldwin
-UID:14c01494-4229-43c1-9136-91672ebe37c6@14c0.org
-URL:https://www.imdb.com/title/tt38633147/
+DTSTART;VALUE=DATE:20270119
+SUMMARY:🎥 JLI JIS
+UID:deae2b1d-fc13-4a6b-a426-815e75d86992@deae.org
+URL:https://www.themoviedb.org/movie/1719552/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261126
+SUMMARY:🎥 Bárbara não lhe Adora
+UID:8045b980-8764-4f48-888e-10ca25701a42@8045.org
+URL:https://www.themoviedb.org/movie/1782040/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261128
+SUMMARY:🎥 O Assassino do Boom
+UID:5c7e5ed8-ba23-4bda-a646-ce7a1dfbe65f@5c7e.org
+URL:https://www.themoviedb.org/movie/1550500/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261126
+SUMMARY:🎥 Loucos Amores Líquidos
+UID:560d5144-4cbc-4079-8039-6eb76a5f1db2@560d.org
+URL:https://www.themoviedb.org/movie/1282173/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261125
+SUMMARY:🎥 Entrando Numa Grande Fria
+UID:2a403938-da92-4191-80af-92ee051c160f@2a40.org
+URL:https://www.themoviedb.org/movie/1400336/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261125
@@ -453,28 +1191,40 @@ UID:8664718a-cbf1-4efe-bbb0-b891cab0e620@8664.org
 URL:https://www.imdb.com/title/tt36834996/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261016
-SUMMARY:🎥 Terrestrial
-UID:9fccc76d-8eaa-482b-9eb1-be05f13c0f5d@9fcc.org
-URL:https://www.imdb.com/title/tt36870725/
+DTSTART;VALUE=DATE:20261203
+SUMMARY:🎥 Fernão de Magalhães
+UID:8cfeb9ac-d2db-42c6-a3de-3e131a34715e@8cfe.org
+URL:https://www.themoviedb.org/movie/975335/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261015
-SUMMARY:🎥 Jailer 2
-UID:6adc8266-f2a9-4e20-afb3-90a3154e1631@6adc.org
-URL:https://www.imdb.com/title/tt33318732/
+DTSTART;VALUE=DATE:20261128
+SUMMARY:🎥 HOPE - 希望
+UID:bd361816-afd8-4486-b26c-edb325bdb80b@bd36.org
+URL:https://www.themoviedb.org/movie/1758819/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270114
+SUMMARY:🎥 Álibi
+UID:07d90902-c27a-4050-8fca-39be1f1a1931@07d9.org
+URL:https://www.themoviedb.org/movie/1469522/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270114
+SUMMARY:🎥 Minha Vida com Shurastey
+UID:a2c54e62-0c3a-4cf7-97da-2382ee04ea54@a2c5.org
+URL:https://www.themoviedb.org/movie/1433164/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261126
+SUMMARY:🎥 Dona Onete: Meu Coração Neste Pedacinho Aqui
+UID:2f8bdf4e-a85f-41d9-a900-126a7f6107b5@2f8b.org
+URL:https://www.themoviedb.org/movie/1541094/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261103
 SUMMARY:🎥 Operation Kabul
 UID:613e007c-afda-4e42-a283-f8e5a2b7d76a@613e.org
 URL:https://www.imdb.com/title/tt34375721/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261016
-SUMMARY:🎥 You Can See Everything
-UID:968f3878-9c5c-459b-85b1-556a46e94867@968f.org
-URL:https://www.imdb.com/title/tt45368240/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261022
@@ -489,16 +1239,70 @@ UID:f5890b07-2b12-4250-a34f-8bf8143d7cbd@f589.org
 URL:https://www.imdb.com/title/tt21357150/
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261210
+SUMMARY:🎥 O Delator
+UID:c0a3ddf0-3fdd-4d7d-9cdd-9e5cd9cb34c1@c0a3.org
+URL:https://www.themoviedb.org/movie/1256908/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20040813
+SUMMARY:🎥 Diário de uma Paixão
+UID:c51998a1-daab-4d63-af8c-9cbdd1febd5b@c519.org
+URL:https://www.themoviedb.org/movie/11036/
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261224
 SUMMARY:🎥 Athimanoharam
 UID:14635821-54ce-46f4-9fc9-afa1195f479a@1463.org
 URL:https://www.imdb.com/title/tt37539458/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261015
-SUMMARY:🎥 Onslaught
-UID:15613388-a738-47d9-825c-b0f8efd5cedc@1561.org
-URL:https://www.imdb.com/title/tt32268691/
+DTSTART;VALUE=DATE:20040319
+SUMMARY:🎥 A Paixão de Cristo
+UID:0c149825-ef89-46ec-8e56-c9a9470fe688@0c14.org
+URL:https://www.themoviedb.org/movie/615/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270101
+SUMMARY:🎥 Quando a Noite Brilha
+UID:18f87bd7-3c9c-41e2-a433-50551d11411a@18f8.org
+URL:https://www.themoviedb.org/movie/1701996/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270218
+SUMMARY:🎥 A Sua Frente
+UID:0e82c89a-43d1-4dce-81d1-3fea5ad6c7f0@0e82.org
+URL:https://www.themoviedb.org/movie/1643909/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270107
+SUMMARY:🎥 Victor\, como Hugo
+UID:b0cd94e9-9c11-410e-9bc8-060e7afb3c7d@b0cd.org
+URL:https://www.themoviedb.org/movie/1454680/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270617
+SUMMARY:🎥 Homem-Aranha: Além do Aranhaverso
+UID:b09b1b61-357a-463a-af02-d72d95088e23@b09b.org
+URL:https://www.themoviedb.org/movie/911916/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261203
+SUMMARY:🎥 O Nascimento de Cristo: ZERO D.C.
+UID:4b699172-7b22-4f4e-94b7-b784d4bd4af1@4b69.org
+URL:https://www.themoviedb.org/movie/1408207/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261203
+SUMMARY:🎥 Tarkovsky: Tempo de Viagem
+UID:52fb39c1-78d2-43a4-84ca-d332c5effe6a@52fb.org
+URL:https://www.themoviedb.org/movie/47011/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270408
+SUMMARY:🎥 Boys for Life
+UID:3ada3fce-e95f-4180-804b-2085870f764d@3ada.org
+URL:https://www.themoviedb.org/movie/1731801/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261022
@@ -525,10 +1329,10 @@ UID:2181353e-840d-4bc7-bd46-7cd2d658da11@2181.org
 URL:https://www.imdb.com/title/tt35866986/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260323
-SUMMARY:🎥 Eternal Return
-UID:c1197668-7ac5-4e00-8dc3-28ca82b5654c@c119.org
-URL:https://www.imdb.com/title/tt27725750/
+DTSTART;VALUE=DATE:20261210
+SUMMARY:🎥 O Último Teimoso
+UID:b733342c-8d3b-4c9b-b183-f1046b73e3ac@b733.org
+URL:https://www.themoviedb.org/movie/1397375/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261029
@@ -537,16 +1341,94 @@ UID:89fe4c2b-4826-42e8-b314-9d5081b2b6ce@89fe.org
 URL:https://www.imdb.com/title/tt38691481/
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261210
+SUMMARY:🎥 One Piece: O Reino de Chopper na Ilha dos Animais Estranhos
+UID:30a40d23-2ca5-410c-89c6-69595aa6e1ee@30a4.org
+URL:https://www.themoviedb.org/movie/44725/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261203
+SUMMARY:🎥 A Última Entrega
+UID:63b1bfe8-a00a-4041-8f71-14fcaa018359@63b1.org
+URL:https://www.themoviedb.org/movie/1476746/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270211
+SUMMARY:🎥 Nárnia: O Sobrinho do Mago
+UID:52f1f83b-0e0c-40de-b177-d120471b1e38@52f1.org
+URL:https://www.themoviedb.org/movie/1147572/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270527
+SUMMARY:🎥 O Homem Mais Solitário da Cidade
+UID:7691c3c7-ea01-4e4a-9176-869564684e85@7691.org
+URL:https://www.themoviedb.org/movie/1426957/
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261119
 SUMMARY:🎥 Ramayana: Rise of a Legend
 UID:8e7fb90d-800c-4175-ad7e-d034dfe9b8ea@8e7f.org
 URL:https://www.imdb.com/title/tt27988879/
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270520
+SUMMARY:🎥 Chá Revelação
+UID:b6858b60-ecf8-49f1-abfc-311ec5a94174@b685.org
+URL:https://www.themoviedb.org/movie/1421745/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261203
+SUMMARY:🎥 Os Demônios
+UID:58ac5239-d4f4-4efb-a166-e4b09d1fca95@58ac.org
+URL:https://www.themoviedb.org/movie/31767/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270114
+SUMMARY:🎥 Marama: A Herança do Mal
+UID:1880773f-61cb-45d7-896a-f135c09f96c3@1880.org
+URL:https://www.themoviedb.org/movie/1364953/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270202
+SUMMARY:🎥 INANE FECIT
+UID:83f342e5-c50b-4b06-8c18-21d51d21a40e@83f3.org
+URL:https://www.themoviedb.org/movie/1725017/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270225
+SUMMARY:🎥 Amigos em Fuga
+UID:25e73d17-80d3-48ae-aa17-4ac57fac71d9@25e7.org
+URL:https://www.themoviedb.org/movie/1492727/
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261104
 SUMMARY:🎥 The Last Temptation of Becky
 UID:925a6d8e-fbcd-4114-befe-bb76aa82a1d1@925a.org
 URL:https://www.imdb.com/title/tt40210362/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270624
+SUMMARY:🎥 Sem título Onze Homens e Um Segredo prequela
+UID:664d9c8d-5900-4657-aa7f-e97e622a0158@664d.org
+URL:https://www.themoviedb.org/movie/1221973/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261120
+SUMMARY:🎥 Natasha
+UID:aeecbdf8-c5e3-485e-a170-b20af5305665@aeec.org
+URL:https://www.themoviedb.org/movie/1815443/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270211
+SUMMARY:🎥 Pendulum
+UID:97310ffe-2269-48b7-9778-71f602f1c38d@9731.org
+URL:https://www.themoviedb.org/movie/1380163/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19771117
+SUMMARY:🎥 Guerra nas Estrelas
+UID:157564ed-86cf-43af-a3eb-f019bc146843@1575.org
+URL:https://www.themoviedb.org/movie/11/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261105
@@ -567,10 +1449,10 @@ UID:83cffc5d-46a9-4aca-bfe2-d67c9d3f25ec@83cf.org
 URL:https://www.imdb.com/title/tt38192494/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261004
-SUMMARY:🎥 Coward
-UID:1c2db370-ec57-43d0-a3cb-4311b401f562@1c2d.org
-URL:https://www.imdb.com/title/tt39328391/
+DTSTART;VALUE=DATE:20261023
+SUMMARY:🎥 Going for Two
+UID:d4b316d9-6e2b-4b7a-bd2a-beb4e8da0717@d4b3.org
+URL:https://www.imdb.com/title/tt27786691/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261030
@@ -579,28 +1461,22 @@ UID:bd9b3a83-46f8-465e-b9ca-a7ed44616a30@bd9b.org
 URL:https://www.imdb.com/title/tt47599036/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261023
-SUMMARY:🎥 Going for Two
-UID:d4b316d9-6e2b-4b7a-bd2a-beb4e8da0717@d4b3.org
-URL:https://www.imdb.com/title/tt27786691/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261015
-SUMMARY:🎥 Street Fighter
-UID:75211620-c6df-444c-8c1c-cec366baa097@7521.org
-URL:https://www.imdb.com/title/tt27419420/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261015
-SUMMARY:🎥 Sense and Sensibility
-UID:eaf6a216-36e4-4523-8475-1e711d69007d@eaf6.org
-URL:https://www.imdb.com/title/tt13609648/
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261028
 SUMMARY:🎥 The Eyes of Ghana
 UID:ed59e610-da38-47f3-a847-41229e24ce54@ed59.org
 URL:https://www.imdb.com/title/tt37815334/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270401
+SUMMARY:🎥 Mentira Tem Perna Curta
+UID:c6302c4e-8879-44d1-b9c8-fe7f90526f13@c630.org
+URL:https://www.themoviedb.org/movie/1748713/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270610
+SUMMARY:🎥 Como Treinar o Seu Dragão 2
+UID:25057426-d359-42ad-bc98-51244603df91@2505.org
+URL:https://www.themoviedb.org/movie/1458319/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261030
@@ -609,10 +1485,46 @@ UID:0ce6270e-ac04-4d2f-9649-ebcc04a92d1b@0ce6.org
 URL:https://www.imdb.com/title/tt43622757/
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261126
+SUMMARY:🎥 Deus Ainda É Brasileiro
+UID:de168f2b-f9a8-448f-b085-a97e9941e59b@de16.org
+URL:https://www.themoviedb.org/movie/1172343/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270225
+SUMMARY:🎥 K-Pop Superstar: O Filme
+UID:d96ed264-2d40-42b7-8d0c-f629eba753a1@d96e.org
+URL:https://www.themoviedb.org/movie/1517333/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261203
+SUMMARY:🎥 Psicopata Vitoriana
+UID:7c36bf2b-a3d9-4d69-b6a7-b4bff091558b@7c36.org
+URL:https://www.themoviedb.org/movie/1379486/
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261023
 SUMMARY:🎥 Ali G: Who Iz I?
 UID:24961db4-20ed-42df-a5e9-4df691e09c4d@2496.org
 URL:https://www.imdb.com/title/tt43655467/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19990730
+SUMMARY:🎥 Um Lugar Chamado Notting Hill
+UID:8bb6ff1e-3a45-44e1-897f-13bdca9ff129@8bb6.org
+URL:https://www.themoviedb.org/movie/509/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270225
+SUMMARY:🎥 Next Life
+UID:cc884c33-a721-41ab-bd0a-ea5da0c4248c@cc88.org
+URL:https://www.themoviedb.org/movie/1387778/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270506
+SUMMARY:🎥 A Ressurreição de Cristo: Parte I
+UID:cd9eb019-f987-4196-b59a-58da5d33f121@cd9e.org
+URL:https://www.themoviedb.org/movie/532652/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261106
@@ -627,16 +1539,52 @@ UID:66027ba0-e739-4dad-b602-6183907c5588@6602.org
 URL:https://www.imdb.com/title/tt26735127/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261016
-SUMMARY:🎥 Trust Me\, I'm a Doctor
-UID:079b4d6f-6df6-4734-a999-af7677676e35@079b.org
-URL:https://www.imdb.com/title/tt31456607/
+DTSTART;VALUE=DATE:20261124
+SUMMARY:🎥 Close-Up
+UID:24de6902-647c-45e3-a085-1c75f92a7397@24de.org
+URL:https://www.themoviedb.org/movie/30017/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20061222
+SUMMARY:🎥 O Amor Não Tira Férias
+UID:28515a89-d03f-4cd6-958f-078d70c14669@2851.org
+URL:https://www.themoviedb.org/movie/1581/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241204
+SUMMARY:🎥 Filhas da Noite
+UID:ca93b4e8-71d1-4e2d-83e3-66a2fdfc7c60@ca93.org
+URL:https://www.themoviedb.org/movie/1398369/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261030
 SUMMARY:🎥 The Canvas
 UID:6204910d-9b35-493a-b352-67bbf047dc39@6204.org
 URL:https://www.imdb.com/title/tt39773403/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270114
+SUMMARY:🎥 Filhos de Sangue e Osso
+UID:d23990b4-fbd4-4850-a5a1-678fcdd3cb32@d239.org
+URL:https://www.themoviedb.org/movie/621304/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270422
+SUMMARY:🎥 Spaceballs: The New One
+UID:11a75eee-dc5c-4a93-8212-0ad9c0721469@11a7.org
+URL:https://www.themoviedb.org/movie/1306322/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261127
+SUMMARY:🎥 Breve Eternidade
+UID:faec8fdb-48cd-43dd-9c8e-64ac0cfcafe0@faec.org
+URL:https://www.themoviedb.org/movie/1694282/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270311
+SUMMARY:🎥 The Chosen: Crucifixion
+UID:b9f32cbe-19cf-4c43-9626-928838fde7be@b9f3.org
+URL:https://www.themoviedb.org/movie/1487395/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261224
@@ -651,6 +1599,18 @@ UID:5f2459da-5bbc-4a6e-86cd-9a3a44b69894@5f24.org
 URL:https://www.imdb.com/title/tt34374553/
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270128
+SUMMARY:🎥 A Grande Estreia
+UID:0b400270-d726-4cf2-8851-b0960bcc20f3@0b40.org
+URL:https://www.themoviedb.org/movie/1391239/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270101
+SUMMARY:🎥 A Morte Não Se Farta
+UID:cbd911eb-78e7-48d6-bdd9-eab5cf9b056a@cbd9.org
+URL:https://www.themoviedb.org/movie/1280623/
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261114
 SUMMARY:🎥 Festive Fun with Peppa Cinema Experience
 UID:23835223-425a-4e0b-a825-3258fb82b417@2383.org
@@ -663,16 +1623,64 @@ UID:f04b4fc6-c8ce-4a6c-8ff3-b20d54abf6f3@f04b.org
 URL:https://www.imdb.com/title/tt36482679/
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261125
+SUMMARY:🎥 As Novas Desventuras de Cliff Booth
+UID:a3b6b9e2-5d42-419e-aedf-3aab0660d4bf@a3b6.org
+URL:https://www.themoviedb.org/movie/1457866/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261126
+SUMMARY:🎥 O Intruso
+UID:fc9e7c8e-b982-4e4b-b448-50b126fcef0e@fc9e.org
+URL:https://www.themoviedb.org/movie/1554956/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270121
+SUMMARY:🎥 Lobis-Homem
+UID:0de2dc3f-a8c2-4485-8e71-e93fb34f62ec@0de2.org
+URL:https://www.themoviedb.org/movie/1421903/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270506
+SUMMARY:🎥 Anything but Ghosts
+UID:3210bce5-032e-452f-b456-9f5b38707634@3210.org
+URL:https://www.themoviedb.org/movie/1540936/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261126
+SUMMARY:🎥 Dona Onete: Meu Coração Neste Pedacinho Aqui
+UID:b3870990-c63d-4ff5-92bd-9afb9e508308@b387.org
+URL:https://www.themoviedb.org/movie/1767350/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261203
+SUMMARY:🎥 Clarice Vê Estrelas
+UID:7d992b9f-dab8-4db9-b9e6-18955b6fb8cc@7d99.org
+URL:https://www.themoviedb.org/movie/1288393/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270331
+SUMMARY:🎥 o nó entre nossos dedos
+UID:974311a1-3c97-4482-bdc7-3b09cb9662d2@9743.org
+URL:https://www.themoviedb.org/movie/1679216/
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261222
 SUMMARY:🎥 Spin Wars
 UID:8579086f-4709-41ce-8dd0-b155819e5458@8579.org
 URL:https://www.imdb.com/title/tt42040029/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261016
-SUMMARY:🎥 Ranabaali
-UID:a572874f-77b1-4c5c-9704-ed9dab4d9788@a572.org
-URL:https://www.imdb.com/title/tt32324552/
+DTSTART;VALUE=DATE:20270617
+SUMMARY:🎥 Movido Pela Arte
+UID:ef9ab60e-e532-41d4-a3fe-d376d3751db2@ef9a.org
+URL:https://www.themoviedb.org/movie/1533397/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270527
+SUMMARY:🎥 Star Wars: Starfighter
+UID:1c05275b-36ca-4bea-9a84-65cb08a1214f@1c05.org
+URL:https://www.themoviedb.org/movie/1417668/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261023
@@ -681,10 +1689,16 @@ UID:80a5ed19-7e20-4fab-ae09-eb74e5daba33@80a5.org
 URL:https://www.imdb.com/title/tt23472798/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261009
-SUMMARY:🎥 Josephine
-UID:d83b82f0-da9b-4642-a077-3f7862de7db1@d83b.org
-URL:https://www.imdb.com/title/tt32321285/
+DTSTART;VALUE=DATE:20261126
+SUMMARY:🎥 Os irmãos Segreto
+UID:0e07e8c2-bd2a-4ec5-865d-404463ce21fa@0e07.org
+URL:https://www.themoviedb.org/movie/1800849/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261125
+SUMMARY:🎥 Labirintite
+UID:7e9cec31-e366-4a96-b2a3-4dc6b8a58b07@7e9c.org
+URL:https://www.themoviedb.org/movie/1507903/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261224
@@ -694,9 +1708,27 @@ URL:https://www.imdb.com/title/tt35257441/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261126
+SUMMARY:🎥 ÁS DE OUROS
+UID:4a486b54-86c9-4d84-b676-8cc42dfddc8c@4a48.org
+URL:https://www.themoviedb.org/movie/1831520/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261126
 SUMMARY:🎥 Home
 UID:5fe1d9aa-359f-4497-a217-781eb8710644@5fe1.org
 URL:https://www.imdb.com/title/tt27983468/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270131
+SUMMARY:🎥 Não Faltam Parafusos
+UID:4c02ca94-518b-456d-99e6-5febf9a1541c@4c02.org
+URL:https://www.themoviedb.org/movie/1668360/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260729
+SUMMARY:🎥 Homem-Aranha: Um Novo Dia
+UID:4ed3d7f0-57e6-44fd-bf17-0fbfae807387@4ed3.org
+URL:https://www.themoviedb.org/movie/969681/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261111
@@ -705,15 +1737,57 @@ UID:77cc0c00-dee2-4677-84ad-6b1185ba64c4@77cc.org
 URL:https://www.imdb.com/title/tt38952225/
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270311
+SUMMARY:🎥 O Exorcista: Mártires
+UID:f82133c7-6fd5-45a7-9f8b-4bb0b7dcf68f@f821.org
+URL:https://www.themoviedb.org/movie/1297467/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261124
+SUMMARY:🎥 Duas Soluções para Um Problema
+UID:eafeecfd-56c8-4be7-b56d-9506255db03a@eafe.org
+URL:https://www.themoviedb.org/movie/94513/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270121
+SUMMARY:🎥 Hershey
+UID:ff656411-5013-4e99-8b29-7964355dd1c6@ff65.org
+URL:https://www.themoviedb.org/movie/1461490/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270121
+SUMMARY:🎥 A Bola Preta
+UID:70fa1d84-1eb5-4561-85c3-9a5650e24eea@70fa.org
+URL:https://www.themoviedb.org/movie/1422041/
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261021
 SUMMARY:🎥 CMA Presents I Will Always Love You: A Celebration of Dolly Parton
 UID:2ca35bef-2b34-4058-9f8c-5c1813f478b0@2ca3.org
 URL:https://www.imdb.com/title/tt46078866/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261111
-SUMMARY:🎥 Ghost Soldier
-UID:0de5cd2d-bbde-4c4b-b853-866a6bcc9e8d@0de5.org
-URL:https://www.imdb.com/title/tt38686316/
+DTSTART;VALUE=DATE:20270218
+SUMMARY:🎥 Amor Fora do Mapa
+UID:b845ebda-4ce3-48a1-b684-a3fe5edfa789@b845.org
+URL:https://www.themoviedb.org/movie/1125822/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270107
+SUMMARY:🎥 Senhorita Moxy
+UID:c2efb7a2-29e3-45a6-92fc-efeca6aa7613@c2ef.org
+URL:https://www.themoviedb.org/movie/587357/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261217
+SUMMARY:🎥 Malu Tatu
+UID:bafb21de-adb2-431b-93dc-04c700003db8@bafb.org
+URL:https://www.themoviedb.org/movie/1817963/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270603
+SUMMARY:🎥 John Rambo
+UID:e8f8f6f7-caaf-4aea-a065-651eef332055@e8f8.org
+URL:https://www.themoviedb.org/movie/1150369/
 END:VEVENT
 END:VCALENDAR
